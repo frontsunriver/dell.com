@@ -1,0 +1,2 @@
+$(".brand-campaign .wrapper-text .heading").each(function(){var c=$(this).text().split(" ");for(var b=0,a=c.length;b<a;b++){if(b==0||b==1){c[b]='<span class="word-'+b+'">'+c[b]+"</span>";}else{if(b==2){c[b]="<span>"+c[b];
+}else{if(b==c.length-1){c[b]='</span><span class="word-'+b+'">'+c[b]+"</span>";}else{c[b]=c[b];}}}}$(this).html(c.join(" "));});

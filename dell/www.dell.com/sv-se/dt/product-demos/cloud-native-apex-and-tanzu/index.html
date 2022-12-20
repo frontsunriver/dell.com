@@ -1,0 +1,1667 @@
+
+
+<!doctype html>
+<!--[if IEMobile 7 ]><html class="iem7"> <![endif]-->
+<!--[if lt IE 7]><html id="ie6" class="ie lt-ie12 lt-ie11 lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html id="ie7" class="ie lt-ie12 lt-ie11 lt-ie10 lt-ie9 lt-ie8 gt-ie6"><![endif]-->
+<!--[if IE 8]><html id="ie8" class="ie lt-ie12 lt-ie11 lt-ie10 lt-ie9 gt-ie6 gt-ie7"><![endif]-->
+	
+<!--[if IE 9]><html id="ie9" class="ie lt-ie12 lt-ie11 lt-ie10 gt-ie8 gt-ie7 gt-ie6" data-locale="sv-se" data-lang="sv"><![endif]-->
+	
+	
+<!--[if !IE]><!-->
+
+
+
+
+<html dir="ltr" class="    ltr no-js " data-locale="sv-se" data-lang="sv" data-theme="vivify" lang="sv">
+    
+<!--<![endif]-->  
+
+
+
+
+
+
+
+
+
+<!-- Mirrored from www.dell.com/sv-se/dt/product-demos/cloud-native-apex-and-tanzu/index.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Dec 2022 18:29:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    
+	
+	
+
+
+<script defer type="text/javascript" src="../../../../content/dam/delltechnologies/assets/ghf/js/release.js"></script>
+<link type="text/css" rel="stylesheet" href="../../../../content/dam/delltechnologies/assets/ghf/css/release.css" media="print" onload="this.media='all'"/>
+<noscript><link type="text/css" rel="stylesheet" href="../../../../content/dam/delltechnologies/assets/ghf/css/release.css"/></noscript>
+
+<script>
+    (function () {
+        var request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+            if (request.readyState === 4 && request.status === 200) {
+                window.UW = window.UW || {};
+                UW.profile = request.response.trim() && JSON.parse(request.response);
+            }
+        }
+        request.open('GET.html', '/delltechsp/api/profile');
+        request.send();
+    })();
+</script>
+
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    
+    <title>Dell Premier Pages | Dell Sweden</title>
+    
+    
+    
+    <meta name="description" content="Dell Technologies är ledande inom digital omvandling och tillhandahåller digitala tekniklösningar, produkter och tjänster som är utformade för att öka företags affärsframgångar."/>
+	
+	<meta name="HandheldFriendly" content="True"/>
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<!-- Mobile IE activates ClearType technology for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on"/>
+    
+    <meta property="og:title" content="Go Cloud Native with Apex Cloud Services and VMware Tanzu"/>
+    <meta property="og:description" content="Dell Technologies är ledande inom digital omvandling och tillhandahåller digitala tekniklösningar, produkter och tjänster som är utformade för att öka företags affärsframgångar."/>
+    
+    
+    <meta property="og:image" content="https://www.delltechnologies.com/content/dam/uwaem/assets/product-demos/cloud-native-apex-and-tanzu-05052021/bgimage.png"/>
+    <meta property="og:url" content="https://www.dell.com/sv-se/dt/product-demos/cloud-native-apex-and-tanzu/index.htm"/>
+    <meta property="og:type" content="webbplats"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@DellTech"/>
+    <meta property="fb:app_id" content="1063003767067422"/>
+
+    
+    
+    <link rel="canonical" href="index.html"/>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="../../../../etc/designs/uwaem/assets/img/favicons/favicon-192x192.png"/>
+    <link href="../../../../etc/designs/uwaem/assets/img/favicons/favicon.ico" rel="icon"/>
+    <link href="../../../../etc/designs/uwaem/assets/img/favicons/favicon.ico" rel="shortcut icon"/>
+    <link rel="icon" type="image/png" href="../../../../etc/designs/uwaem/assets/img/favicons/favicon-16x16.png" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="../../../../etc/designs/uwaem/assets/img/favicons/favicon-32x32.png" sizes="32x32"/>
+    <link rel="apple-touch-icon" href="../../../../images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/etc/designs/uwaem/assets/img/fav/apple-touch-icon-180x18" sizes="180x180"/>
+    <link rel="manifest" href="../../../../etc/designs/uwaem/assets/img/favicons/manifest.json"/>
+    <link rel="mask-icon" href="../../../../etc/designs/uwaem/assets/img/favicons/safari-pinned-tab.svg" color="#0295cc"/>
+
+    
+    
+
+    <link rel="preconnect" href="http://www.delltechnologies.com/"/><link rel="dns-prefetch" href="http://www.delltechnologies.com/"/>
+    <link rel="preconnect" href="http://www.dellemc.com/"/><link rel="dns-prefetch" href="http://www.dellemc.com/"/>
+    <link rel="preconnect" href="http://i.dell.com/"/><link rel="dns-prefetch" href="http://i.dell.com/"/>
+    
+
+    <link rel="preconnect" href="http://players.brightcove.net/" crossorigin/><link rel="dns-prefetch" href="http://players.brightcove.net/" crossorigin/>
+    
+        <link rel="preconnect" href="http://boomerang.dell.com/"/><link rel="dns-prefetch" href="http://boomerang.dell.com/"/>
+    
+    
+        <link rel="preconnect" href="http://afcs.dellcdn.com/" crossorigin/><link rel="dns-prefetch" href="http://afcs.dellcdn.com/" crossorigin/>
+        <link rel="preconnect" href="http://stt.dell.com/" crossorigin/><link rel="dns-prefetch" href="http://stt.dell.com/" crossorigin/>
+    
+
+    
+        <link rel="preconnect" href="http://nexus.dell.com/" crossorigin/><link rel="dns-prefetch" href="http://nexus.dell.com/" crossorigin/>
+        <link rel="preconnect" href="http://nexus.ensighten.com/" crossorigin/><link rel="dns-prefetch" href="http://nexus.ensighten.com/" crossorigin/>
+    
+    
+        <link rel="preconnect" href="http://cdnssl.clicktale.net/" crossorigin/><link rel="dns-prefetch" href="http://cdnssl.clicktale.net/" crossorigin/>
+        <link rel="preconnect" href="http://c.evidon.com/" crossorigin/><link rel="dns-prefetch" href="http://c.evidon.com/" crossorigin/>
+        <link rel="preconnect" href="http://universal.iper2.com/" crossorigin/><link rel="dns-prefetch" href="http://universal.iper2.com/" crossorigin/>
+    
+	<link rel="preconnect" href="http://www.google-analytics.com/" crossorigin/><link rel="dns-prefetch" href="http://www.google-analytics.com/" crossorigin/>
+    <link rel="preconnect" href="http://www.googleadservices.com/" crossorigin/><link rel="dns-prefetch" href="http://www.googleadservices.com/" crossorigin/>
+    <link rel="preconnect" href="http://lpcdn.lpsnmedia.net/" crossorigin/><link rel="dns-prefetch" href="http://lpcdn.lpsnmedia.net/" crossorigin/>
+
+    
+    
+    
+    <link rel="preload" as="font" href="../../../../etc/designs/uwaem/assets/fonts/roboto/Roboto-Thin-webfont.woff2" type="font/woff2" crossorigin="anonymous"/>
+    
+    
+
+
+
+    
+	
+
+
+
+
+	
+	    
+    
+
+    
+    <!--[if IE 9]>
+        <link rel="stylesheet" href="/etc/designs/uwaem/clientlibs/css/emc-framework-ie9.min.css" type="text/css">
+
+        <link rel="stylesheet" href="/etc/designs/uwaem/clientlibs/css/emc-v2-ie/base.min.css" type="text/css">
+
+		<link rel="stylesheet" href="/etc/designs/uwaem/clientlibs/css/emc-v2-ie/components-part1.min.css" type="text/css">
+
+		<link rel="stylesheet" href="/etc/designs/uwaem/clientlibs/css/emc-v2-ie/components-part2.min.css" type="text/css">
+
+		<link rel="stylesheet" href="/etc/designs/uwaem/clientlibs/css/emc-v2-ie/pagetypes.min.css" type="text/css">
+
+    <![endif]-->
+    
+    
+    
+
+    <!--[if (!IE) | (gt IE 9)]><!-->
+
+    
+    
+<link rel="stylesheet" href="../../../../etc/designs/uwaem/clientlibs/css/emc-v2.min.fb11c5dea86a4dd2c13cecab711bd493.css" type="text/css" media="print" onload="this.media='all'"/><noscript><link rel="stylesheet" href="../../../../etc/designs/uwaem/clientlibs/css/emc-v2.min.fb11c5dea86a4dd2c13cecab711bd493.css" type="text/css"/></noscript>
+
+
+    
+        
+        
+        
+        
+            
+            <noscript><link type="text/css" rel="stylesheet"/></noscript>
+        
+    <!--<![endif]-->
+
+
+     
+
+
+
+
+
+
+    
+    <script>
+  (function () {
+        if (window.location.pathname.toLowerCase() == "../../../../en-us.html") {
+            var gssCookie = document.cookie.split("; ").filter(function (item) {
+                return item.indexOf("UWSiteUrl=")>-1;
+            });
+            if (gssCookie.length > 0) {
+                var cookieLocale;
+                cookieLocale = gssCookie[0].split("=")[1];
+                var winLoc = encodeURIComponent(window.location.href.replace("../../../../en-us/index.html", "/" + cookieLocale + "/"));    
+                window.location = decodeURIComponent(winLoc);
+            }
+        }
+    })();
+</script>
+    
+
+<script>
+  //Js file execution on based on priority
+  (function () {
+        var head = document.getElementsByTagName('head')[0],
+            hashes = (function () {
+                var pieces = location.hash.substring(1).split("&"), data = {}, i, parts;
+                for (i = 0; i < pieces.length; i++) {
+                    parts = pieces[i].split("=");
+                    if (parts.length < 2) {
+                        parts.push("");
+                    }
+                    data[decodeURIComponent(parts[0])] = decodeURIComponent(parts[1]);
+                }
+                return data;
+            })();
+        var loadScripts = function (urls, callback) {
+            if (urls){
+                var loadCount=0,
+                scripts=[];
+                if (typeof urls == "string"){
+                    scripts.push(urls);
+                }else{
+                    scripts=urls;
+                }
+                var totalJS=scripts.length;
+                for (var i = 0; i < totalJS; i++) {
+                    var script = document.createElement('script');
+                    script.type = 'text/javascript';
+                    script.async = true;
+                    if (callback) {
+                        script.onload = function () {
+                            loadCount++;
+                            if (loadCount==totalJS){
+                                callback();
+                            }
+                        }
+                    }
+                    script.src = scripts[i];
+                    head.appendChild(script);
+                }
+            }
+            else if (callback) {
+                callback();
+            }
+        };
+
+        window.UW = window.UW || {}, UW.loadJS = function (priority, jsFilePaths, callback, flag) {
+            priority = hashes[flag] || (window.UW && UW.plugins && UW.plugins[flag]) || priority;
+            if (priority == 1) {
+                //execute on dom ready
+                window.addEventListener("DOMContentLoaded", function () {
+                    loadScripts(jsFilePaths, callback);
+                }, false);
+            } else if (priority == 2) {
+                //execute on window load
+                window.addEventListener('load', function () {
+                    loadScripts(jsFilePaths, callback);
+                });
+            } else if (priority == 3) {
+                //execute at idle state (not available on all browsers)
+                if (typeof requestIdleCallback === 'function') {
+                    requestIdleCallback(function () {
+                        loadScripts(jsFilePaths, callback)
+                    });
+                } else {
+                    window.setTimeout(function () {
+                        loadScripts(jsFilePaths, callback);
+                    }, 0);
+                }
+            } else {
+                //execute immediately
+                loadScripts(jsFilePaths, callback);
+            }
+        }
+    })();
+</script>
+
+<script>
+(function () {
+      var expires = new Date();
+      expires.setDate(expires.getDate() + 30);
+      document.cookie = "lwp=c=se&l=sv&s=bsd&cs=04;expires="+ expires +";path=/;SameSite=Lax;Secure;domain=.dell.com";
+    })();
+Dell = window.Dell || {};
+Dell.Metrics = Dell.Metrics || {};
+Dell.Metrics.sc = Dell.Metrics.sc || {};
+Dell.Metrics.sc.country = "se";
+Dell.Metrics.sc.language = "sv";
+Dell.Metrics.sc.segment = "corp";
+Dell.Metrics.sc.customerset = "";
+Dell.Metrics.sc.cms = "dellemc";
+Dell.Metrics.sc.pagename = "";
+Dell.Metrics.sc.pagetype = "";
+Dell.Metrics.sc.pagetype = !Dell.Metrics.sc.pagetype || Dell.Metrics.sc.pagetype === "Unspecified (default)" ? 
+                            "unspecified": 
+                            Dell.Metrics.sc.pagetype.split(":").map(function(ele) { return ele.toLowerCase().trim().replace(/\s/g, '-') }).join(":");
+Dell.Metrics.sc.applicationname= "Browse:Product Detail(STP)";
+Dell.Metrics.sc.userdata = Dell.Metrics.sc.userdata || {affinityId:"", guid:"", userId:"", emcIdentityType:[], companyName:"", partnerTrack:"", purchasingPath:"", partnerTier:"", productPurchasePath:""};
+
+window.MarketingUdo = {
+    "CJ" : {
+        "CID" : "",
+        "CSEG" : "",
+        "SEG" : "CORP",
+        "COUNTRY" : "SE",
+        "LANG" : "sv",
+        "PLATFORM" : "",
+        "PROMOID" : "",
+        "ACCOUNTID" : "",
+        "EMAILHASH" : "",
+        "TYPE" : "",
+        "DISCOUNT" : "",
+        "OGID" : "",
+        "CURRENCY" : "",
+        "COUPON" : "",
+        "PRODCAT" : "",
+        "REVENUE" : "",
+        "PROMOID" : 2,
+        "CATEGORY" : "",
+        "CATEGORYPATH" : "\/product\u002Ddemos\/cloud\u002Dnative\u002Dapex\u002Dand\u002Dtanzu\/index.htm",
+        "DEALS" : "",
+        "DEVICE" : "",
+        "FAMILY" : "",
+        "PRODUCT" : "",
+        "ORDERCODE" : "",
+        "PRODUCTLIST" : [
+            {"ITEM" : "",
+            "AMT" : "",
+            "QTY" : ""
+            },
+            {"ITEM" : "",
+            "AMT" : "",
+            "QTY" : ""
+            }
+        ]
+    },
+    "PAGE":{
+        "SITEID":773
+    }
+};
+var getAnalyticsCookie = function() {
+    var decodeAnalitycsCookie = function(string) {
+        var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+        var result     = '';
+        var i = 0;
+        do {
+            var b1 = characters.indexOf(string.charAt(i++));
+            var b2 = characters.indexOf(string.charAt(i++));
+            var b3 = characters.indexOf(string.charAt(i++));
+            var b4 = characters.indexOf(string.charAt(i++));
+
+            var a = ( ( b1 & 0x3F ) << 2 ) | ( ( b2 >> 4 ) & 0x3 );
+            var b = ( ( b2 & 0xF  ) << 4 ) | ( ( b3 >> 2 ) & 0xF );
+            var c = ( ( b3 & 0x3  ) << 6 ) | ( b4 & 0x3F );
+
+            result += String.fromCharCode(a) + (b?String.fromCharCode(b):'') + (c?String.fromCharCode(c):'');
+
+        } while(i < string.length);
+        return result;
+    };
+
+    var match = document.cookie.match(new RegExp('spoaks_analytics=([^;]+)'));
+
+    if (match) {
+        return decodeAnalitycsCookie(match[1]);
+    }
+
+    return null;
+};
+
+try {
+    var analyticsData = JSON.parse(getAnalyticsCookie());
+
+    Object.keys(Dell.Metrics.sc.userdata).map(function(key) {
+        if (key in analyticsData) {
+            Dell.Metrics.sc.userdata[key] = analyticsData[key];
+        }
+    });
+} catch (e) {}
+
+</script>
+    
+
+<script>
+  window.onload = function ()
+  {
+    function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/;SameSite=Lax;Secure;";
+  }
+
+  function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
+    var nAgt = navigator.userAgent||'';
+	var indexMsie = nAgt.indexOf("MSIE");
+    if( indexMsie !== -1 ) {
+      var checkPoint = nAgt.substr(indexMsie+6, 1);
+      var versionIE;
+      if ( checkPoint === '.' ) {
+        versionIE = nAgt.substr(indexMsie+5, 1);
+      } else {
+        versionIE = nAgt.substr(indexMsie+5, 2);
+      }
+
+      if( versionIE <= 8 ) {
+        var ie8CookieString = 'ie8noticeShown';
+        var ieCookie = getCookie(ie8CookieString);
+        if (!ieCookie) {
+          var daysToExpire = 7;
+          setCookie(ie8CookieString, 1, daysToExpire);
+          alert('For the best possible experience, use IE9+ or an alternate browser.');
+        }
+      }
+    }
+
+  };
+
+  
+  var UW=UW||{};
+        UW.boomerang = (function() {
+            return {
+                apiUrl: "//boomerang.dell.com/api/beacon",
+            }
+        })();
+</script>
+
+
+
+
+
+    
+	
+    
+    
+    
+<script type="text/javascript" src="../../../../etc/designs/uwaem/clientlibs/js/delltech/v4/dt-getContent.min.702cb42d32dd7c41d33e7741ab28a17a.js"></script>
+
+
+    
+    
+<script type="text/javascript" src="../../../../etc/designs/uwaem/clientlibs/js/uwcore.min.e71dcaf242ed760832d25ab2c9a9aa28.js"></script>
+
+
+    
+    
+    
+    <script type="text/javascript" src="../../../../../afcs.dellcdn.com/boomerang/latest/boomerang-nonspaWithClicks.min.js"></script>
+    
+    
+<script type="text/javascript" defer src="../../../../etc/designs/uwaem/clientlibs/js/analytics/boomerang.min.5aa772a217a8cb3a32e0fe7187af7899.js"></script>
+
+ 
+
+
+
+<script src="../../../../../afcs.dellcdn.com/tnt/adobebundle/delltech/adobebundle.min.js"></script>
+
+  
+    
+</head>
+
+
+
+
+
+
+
+
+
+<body class="uw img-position-enabled  emc-blank  " data-locale="sv-se" data-lang="sv">
+
+
+	
+
+    
+
+    
+<script type="text/javascript" defer src="../../../../etc/designs/uwaem/clientlibs/js/emc.min.7eab97d57704a169a12923a6b77df28a.js"></script>
+
+
+
+
+	<!--[if IE 8]><ie xmlns="html5"><![endif]-->
+	
+	
+
+<!-- Content -->
+
+<section id="tt-content" role="main" class="content">
+
+
+
+
+    
+    
+    <div class="raw-html">
+
+
+
+
+
+
+
+<script>var demoFolderRoot = "/content/dam/web-resources/project-specific/interactive/product-demos/cloud-native-apex-and-tanzu-26082021";</script>
+<script src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/cloud-native-apex-and-tanzu-26082021/config.js"></script> <!-- CSS -->
+<link href="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/css/bootstrap-custom.css" rel="stylesheet">
+<link href="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/css/custom.css" rel="stylesheet"> <!--<link href="/content/dam/web-resources/project-specific/interactive/product-demos/wrapper/css/custom-min.css" rel="stylesheet">-->
+<link href="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/css/adsstyle.css" rel="stylesheet">
+<link href="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/css/aem-compatibility.css" rel="stylesheet"> <!-- JS -->
+<script src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/js/jquery-min.js"></script>
+<script src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/js/bootstrap-min.js"></script>
+<script src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/js/aws-sdk-2-139-0-min.js"></script>
+<script src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/js/store-legacy-min.js"></script>
+<script src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/js/demousage.js"></script> <!--<script src="/content/dam/web-resources/project-specific/interactive/product-demos/js/demousage-min.js"></script>-->
+<script src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/js/demosetup.js"></script>
+<script src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/js/behaviour.js"></script> <!--<script src="/content/dam/web-resources/project-specific/interactive/product-demos/js/demosetup-min.js"></script>-->
+<iframe id="ads-iframe"></iframe>
+<header id="primaryNav" class="skrollable skrollable-between">
+ <nav class="navbar navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+   <div class="div-table">
+    <div class="div-cell-middle">
+     <h1 id="titleHeading"></h1>
+    </div>
+    <div id="dellLogo" class="div-cell-middle text-right"><a target="_blank" href="../../../../index.html"><img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/delltech-logo-gry.png" height="40" alt=""></a>
+     <div id="expireCol">
+      <h2 id="expireMsg" class="hide"></h2>
+     </div>
+    </div>
+   </div>
+  </div>
+ </nav>
+</header>
+<div id="demoWrapper" class="container-fluid">
+ <div class="div-table">
+  <div class="div-row">
+   <div class="div-cell-middle">
+    <div class="colLeft text-center"><!--<h3 id="pageHeading" class="m-b-md text-white"></h3>--> <img id="demoImage" class="img-responsive hide" style="margin:0px auto 25px;" alt="">
+     <div style="display:inline-block;min-width:200px;">
+      <div id="mainPanel" class="panel panel-default"><a data-toggle="collapse" class="list-group-item" href="#startHeading">Start</a>
+       <div id="startHeading" class="panel-collapse collapse">
+        <div class="list-group panel-group" id="accordion"></div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div id="rightNav" class="div-cell-middle">
+    <div class="colRight">
+     <div id="inst" class="rightNavItem hide" data-toggle="modal" data-target="#keybModal">
+      <div class="imgBlock">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/keybd.png" height="32">
+      </div> Instructions
+     </div>
+     <div id="learn" class="rightNavItem hide">
+      <div class="imgBlock">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/learnmore.png" height="32">
+      </div> <a target="_blank" href="#">Learn More</a>
+     </div>
+     <div id="vrack" class="rightNavItem hide" data-toggle="modal" data-target="#virtRackModal">
+      <div class="imgBlock">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/virtrack.png" height="32">
+      </div> Virtual Rack
+     </div>
+     <div id="vids" class="rightNavItem hide" data-toggle="modal" data-target="#videoModal">
+      <div class="imgBlock">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/videos.png" height="35">
+      </div> Videos
+     </div>
+     <div id="tour" class="rightNavItem hide" data-toggle="modal" data-target="#tourModal">
+      <div class="imgBlock">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/3dtour.png" height="35">
+      </div> 3D Tour
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="div-row bottom-text" style="height:15%;display:none">
+   <div class="div-cell">
+    <div style="position:absolute">
+     <p align="left">Ultrabook, Celeron, Celeron Inside, Core Inside, Intel, Intel Logo, Intel Atom, Intel Atom Inside, Intel Core, Intel Inside, Intel Inside Logo, Intel vPro, Itanium, Intanium Inside, Pentium, Pentium Inside, vPro Inside, Xeon, Xeon Phi, and Xeon Inside are trademarks of Intel Corporation or its subsidiaries in the U.S. and/or other countries.</p>
+    </div>
+   </div>
+   <div class="div-cell"></div>
+  </div>
+ </div>
+ <div id="primaryFooter" class="navbar navbar-fixed-bottom">
+  <div class="container-fluid">
+   <div class="div-table">
+    <div class="div-cell-middle">
+     <div id="inst" class="leftFooterItem hide" data-toggle="modal" data-target="#keybModal" style="visibility: hidden;">
+      <div class="imgBlock">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/keybd.png" height="32">
+      </div>
+      <div class="imgBlock-dark">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/keybd-dark.png" height="32">
+      </div>
+      <h4 class="hidden-sm hidden-xs">Instructions</h4>
+     </div>
+     <div id="learn" class="leftFooterItem hide">
+      <div class="imgBlock">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/learnmore.png" height="32">
+      </div>
+      <div class="imgBlock-dark">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/learnmore-dark.png" height="32">
+      </div> <a target="_blank" href="#" class="hidden-sm hidden-xs"><span class="link-spanner"></span>Learn More</a>
+     </div>
+     <div id="vrack" class="leftFooterItem hide" data-toggle="modal" data-target="#virtRackModal">
+      <div class="imgBlock">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/virtrack.png" height="32">
+      </div>
+      <div class="imgBlock-dark">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/virtrack-dark.png" height="32">
+      </div>
+      <h4 class="hidden-sm hidden-xs">Virtual Rack</h4>
+     </div>
+     <div id="vids" class="leftFooterItem hide" data-toggle="modal" data-target="#videoModal">
+      <div class="imgBlock">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/videos.png" height="35">
+      </div>
+      <div class="imgBlock-dark">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/videos-dark.png" height="35">
+      </div>
+      <h4 class="hidden-sm hidden-xs">Videos</h4>
+     </div>
+     <div id="tour" class="leftFooterItem hide" data-toggle="modal" data-target="#tourModal">
+      <div class="imgBlock">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/3dtour.png" height="35">
+      </div>
+      <div class="imgBlock-dark">
+       <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/3dtour-dark.png" height="35">
+      </div>
+      <h4 class="hidden-sm hidden-xs">3D Tour</h4>
+     </div>
+    </div>
+    <div id="hotspots" class="div-cell-middle footerText text-center">
+     <div class="checkbox checkbox-inline checkbox-primary"><input id="apl" type="checkbox"><label class="checkContainer">Autoplay</label>
+     </div>
+     <div class="checkbox checkbox-inline checkbox-primary"><input id="hts" type="checkbox" checked><label class="checkContainer">Hotspots</label>
+     </div>
+     <div class="checkbox checkbox-inline checkbox-primary"><input id="cls" type="checkbox" checked><label class="checkContainer">Callouts</label>
+     </div>
+    </div> <!--Language selection dropdown-->
+    <div class="div-cell-middle footerText text-center"><select id="localdrpdwn" required> <option value="default" selected>Select Language</option> </select>
+    </div>
+    <div id="survey" class="div-cell-middle text-center hide hidden-sm hidden-xs">
+     <div class="imgBlock">
+      <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/feedback.png" height="32">
+     </div>
+     <div class="imgBlock-dark">
+      <img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/feedback-dark.png" height="32">
+     </div>
+     <h4 class="hidden-sm hidden-xs">Feedback</h4>
+    </div>
+    <div id="" class="div-cell-middle text-center"><a target="_blank" href="http://democenter.dell.com/"><img src="../../../../content/dam/web-resources/project-specific/interactive/product-demos/wrapper/siteimages/delltech-logo-gry.png" height="20" alt=""></a><br> <a target="_blank" href="http://democenter.dell.com/">DEMO CENTER</a> <span id="versionText" class="text-muted text-bold small m-l-sm"></span>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-vidsKeys">
+   <div class="modal-content">
+    <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">× </button>
+    </div>
+    <div id="videoBody" class="modal-body"></div>
+   </div>
+  </div>
+ </div>
+ <div class="modal fade" id="surveyModal" tabindex="-1" role="dialog" aria-labelledby="surveyModal" aria-hidden="true">
+  <div id="srvModal" class="modal-dialog">
+   <div id="surveyDialog" class="modal-content center-block">
+    <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">× </button>
+    </div>
+    <div class="modal-body"><iframe id="srvFrame" style="width:100%; height:95%" src="#"></iframe>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="modal fade" id="keybModal" tabindex="-1" role="dialog" aria-labelledby="keybModal" aria-hidden="true">
+  <div id="keyControls" class="modal-dialog">
+   <div class="modal-content center-block">
+    <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+     <h4 align="center" class="modal-title">DEMO INSTRUCTIONS</h4>
+    </div>
+    <div class="modal-body">
+     <div class="row">
+      <div class="col-md-4">
+       <div class="col-md-3">
+        <div class="keyPress">
+         <p>Esc</p>
+        </div>
+       </div>
+       <div class="col-md-9">
+        <p class="navKeyText">Restart Demo</p>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="col-md-3">
+        <div class="keyPress">
+         <div class="arrowBox">
+          <div class="line rightLine"></div>
+          <div class="arrow rightArrow"></div>
+         </div>
+        </div>
+       </div>
+       <div class="col-md-9">
+        <p class="navKeyText">Move back</p>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="col-md-3">
+        <div class="keyPress">
+         <div class="arrowBox">
+          <div class="line leftLine"></div>
+          <div class="arrow leftArrow"></div>
+         </div>
+        </div>
+       </div>
+       <div class="col-md-9">
+        <p class="navKeyText">Move forward</p>
+       </div>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-4">
+       <div class="col-md-3">
+        <div class="keyPress">
+         <p>F11</p>
+        </div>
+       </div>
+       <div class="col-md-9">
+        <p class="navKeyText">For best experience</p>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="col-md-3">
+        <div class="redSquare"></div>
+       </div>
+       <div class="col-md-9">
+        <p class="navKeyText">Demo flow</p>
+       </div>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-12">
+       <p class="navKeyText">You can access the in-demo menu by hovering the mouse over the bottom right-hand corner of the screen. When clicked, this will you allow you to turn on and off various features within the demo.</p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="modal fade" id="virtRackModal" tabindex="-1" role="dialog" aria-labelledby="virtRackModal" aria-hidden="true">
+  <div class="modal-dialog modal-virtRack">
+   <div class="modal-content">
+    <div class="modal-header virtualRack"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">× </button>
+    </div>
+    <div class="modal-body">
+     <div class="embed-responsive embed-responsive-16by9"><iframe id="vRackIframe" class="embed-responsive-item" src="#"></iframe>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="modal fade" id="tourModal" tabindex="-1" role="dialog" aria-labelledby="tourModal" aria-hidden="true">
+  <div class="modal-dialog modal-virtRack">
+   <div class="modal-content">
+    <div class="modal-header virtualRack"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">× </button>
+    </div>
+    <div class="modal-body">
+     <div class="embed-responsive embed-responsive-16by9"><iframe id="tourIframe" class="embed-responsive-item" src="#"></iframe>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<script type="text/javascript">demoSetup(cf);demoUsage(cf);var url=new URL(window.location.html);var screenParam;var langParam;if(url.searchParams.has("screen")){screenParam=url.searchParams.get("screen");}if(url.searchParams.has("lang")){langParam=url.searchParams.get("lang");
+}if(screenParam!=null||langParam!=null){behaviour.switchScreen(screenParam,langParam);}behaviour.populateLangDropdown();behaviour.getLocalLang();$("body").append($(".modal"));</script>
+
+
+</div>
+
+
+</section>
+
+    
+
+
+
+    
+    
+
+    
+    
+
+
+ 
+
+	
+
+    
+    
+    
+
+
+    
+    
+
+    
+
+	<!--[if IE 8]></ie><![endif]-->
+
+    
+
+
+
+<!-- Ensighten Begin -->
+
+
+    
+    
+    <script>
+    UW.loadJS(3,"../../../../../nexus.dell.com/dell/emc/Bootstrap.js","","ensightenIT");
+    </script>
+    <script>
+    UW.loadJS(3,"../../../../../nexus.dell.com/dell/marketing/Bootstrap.js","","ensighten");
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="default overlay-assets modal overlay-custom contactus-popup-overlay open center-overlay" style="display:none;">
+    <div class="scroll-container">
+        <div class="card">
+            <div class="overlay-header">
+                <div class="header-container">
+                    <div class="header-content">Kontakta oss</div>
+                    <a href="javascript:void(0);" class="btn-close cta-metric icn js-close" tabindex="0" title="Close" aria-label="Close"></a>
+                </div>
+            </div>
+            <div class="content bg-light">
+                <div class="form">
+                    <div class="form-wrapper view contactus-popup widget-contactus-form widget-contactus-popup pagebed form-col-2">
+
+                        <form name="contactus-container" class="form-container" id="contactus-container" method="POST" autocomplete="off">
+
+                            <header class="intro-group">
+                                <div class="intro-content">
+                                    <h3 class="heading">Be om en säljuppringning</h3>
+                                    <div class="rte">Kontakta en representant för Dell Technologies med vårt snabba och enkla formulär så hjälper vi dig att uppfylla dina affärsbehov.</div>
+                                </div>
+                            </header>
+
+                            <div class="form-group half-box first-name">
+                                <label class="form-label">Förnamn<span class="redAsterisk">*</span></label>
+                                <input name="firstname" class="firstname form-text req" required="true" type="text" autocomplete="off"/>
+                                <p class="error-text"></p>
+                            </div>
+                            <div class="form-group half-box last-name">
+                                <label class="form-label">Efternamn<span class="redAsterisk">*</span></label>
+                                <input name="lastname" class="lastname form-text req" required="true" type="text" autocomplete="off"/>
+                                <p class="error-text"></p>
+                            </div>
+                            <div class="form-group half-box">
+                                <label class="form-label">E-postadress (arbete)<span class="redAsterisk">*</span></label>
+                                <input name="email" class="email form-text req" required="true" type="text" autocomplete="off"/>
+                                <p class="error-text"></p>
+                            </div>
+                            <div class="form-group half-box">
+                                <label class="form-label">Telefonnummer<span class="redAsterisk">*</span></label>
+                                <input name="phone" class="phone form-text req" required="true" type="text" autocomplete="off"/>
+                                <p class="error-text"></p>
+                            </div>
+                            <div class="form-group half-box">
+                                <label class="form-label">Företagsnamn<span class="redAsterisk">*</span></label>
+                                <input name="company" class="form-company form-text req" required="true" type="text" autocomplete="off"/>
+                                <p class="error-text"></p>
+                            </div>
+
+                            <div class="form-group half-box">
+                                <div class="container-dropdown">
+                                    <label class="form-label">
+                                        <span class='default-label'>Välj en plats</span>
+                                        <span class='onfocus-label'>Plats</span>
+                                        <span class="redAsterisk">*</span>
+                                    </label>
+                                    <input name="country" class="country form-text req" type="text" readonly/>
+                                    <span class="select-arrow"></span>
+                                    <ul class="dropdown-option countries">
+                                        <li>AFGHANISTAN</li>
+                                    
+                                        <li>ÅLAND</li>
+                                    
+                                        <li>ALBANIEN</li>
+                                    
+                                        <li>ALGERIET</li>
+                                    
+                                        <li>AMERIKANSKA SAMOA</li>
+                                    
+                                        <li>ANDORRA</li>
+                                    
+                                        <li>ANGOLA</li>
+                                    
+                                        <li>ANGUILLA</li>
+                                    
+                                        <li>ANTARKTIS</li>
+                                    
+                                        <li>ANTIGUA OCH BARBUDA</li>
+                                    
+                                        <li>ARGENTINA</li>
+                                    
+                                        <li>ARMENIEN</li>
+                                    
+                                        <li>ARUBA</li>
+                                    
+                                        <li>AUSTRALIEN</li>
+                                    
+                                        <li>ÖSTERRIKE</li>
+                                    
+                                        <li>AZERBAJDZJAN</li>
+                                    
+                                        <li>BAHAMAS</li>
+                                    
+                                        <li>BAHRAIN</li>
+                                    
+                                        <li>BANGLADESH</li>
+                                    
+                                        <li>BARBADOS</li>
+                                    
+                                        <li>BELARUS</li>
+                                    
+                                        <li>BELGIEN</li>
+                                    
+                                        <li>BELIZE</li>
+                                    
+                                        <li>BENIN</li>
+                                    
+                                        <li>BERMUDA</li>
+                                    
+                                        <li>BHUTAN</li>
+                                    
+                                        <li>BOLIVIA</li>
+                                    
+                                        <li>BOSNIEN OCH HERCEGOVINA</li>
+                                    
+                                        <li>BOTSWANA</li>
+                                    
+                                        <li>BOUVETÖN</li>
+                                    
+                                        <li>BRASILIEN</li>
+                                    
+                                        <li>BRITTISKA TERRITORIET I INDISKA OCEANEN</li>
+                                    
+                                        <li>BRUNEI</li>
+                                    
+                                        <li>BULGARIEN</li>
+                                    
+                                        <li>BURKINA FASO</li>
+                                    
+                                        <li>BURUNDI</li>
+                                    
+                                        <li>KAMBODJA</li>
+                                    
+                                        <li>KAMERUN</li>
+                                    
+                                        <li>KANADA</li>
+                                    
+                                        <li>KAP VERDE</li>
+                                    
+                                        <li>CAYMANÖARNA</li>
+                                    
+                                        <li>CENTRALAFRIKANSKA REPUBLIKEN</li>
+                                    
+                                        <li>TCHAD</li>
+                                    
+                                        <li>CHILE</li>
+                                    
+                                        <li>KINA</li>
+                                    
+                                        <li>JULÖN</li>
+                                    
+                                        <li>KOKOSÖARNA (KEELINGÖARNA)</li>
+                                    
+                                        <li>COLOMBIA</li>
+                                    
+                                        <li>KOMORERNA</li>
+                                    
+                                        <li>KONGO</li>
+                                    
+                                        <li>DEMOKRATISKA REPUBLIKEN KONGO</li>
+                                    
+                                        <li>COOKÖARNA</li>
+                                    
+                                        <li>COSTA RICA</li>
+                                    
+                                        <li>ELFENBENSKUSTEN</li>
+                                    
+                                        <li>KROATIEN</li>
+                                    
+                                        <li>CYPERN</li>
+                                    
+                                        <li>TJECKIEN</li>
+                                    
+                                        <li>DANMARK</li>
+                                    
+                                        <li>DJIBOUTI</li>
+                                    
+                                        <li>DOMINICA</li>
+                                    
+                                        <li>DOMINIKANSKA REPUBLIKEN</li>
+                                    
+                                        <li>ECUADOR</li>
+                                    
+                                        <li>EGYPTEN</li>
+                                    
+                                        <li>EL SALVADOR</li>
+                                    
+                                        <li>EKVATORIALGUINEA</li>
+                                    
+                                        <li>ERITREA</li>
+                                    
+                                        <li>ESTLAND</li>
+                                    
+                                        <li>ETIOPIEN</li>
+                                    
+                                        <li>FALKLANDSÖARNA (MALVINERNA)</li>
+                                    
+                                        <li>FÄRÖARNA</li>
+                                    
+                                        <li>FIJI</li>
+                                    
+                                        <li>FINLAND</li>
+                                    
+                                        <li>FRANKRIKE</li>
+                                    
+                                        <li>FRANSKA GUYANA</li>
+                                    
+                                        <li>FRANSKA POLYNESIEN</li>
+                                    
+                                        <li>FRANSKA SYDTERRITORIERNA</li>
+                                    
+                                        <li>GABON</li>
+                                    
+                                        <li>GAMBIA</li>
+                                    
+                                        <li>GEORGIEN</li>
+                                    
+                                        <li>TYSKLAND</li>
+                                    
+                                        <li>GHANA</li>
+                                    
+                                        <li>GIBRALTAR</li>
+                                    
+                                        <li>GREKLAND</li>
+                                    
+                                        <li>GRÖNLAND</li>
+                                    
+                                        <li>GRENADA</li>
+                                    
+                                        <li>GUADELOUPE</li>
+                                    
+                                        <li>GUAM</li>
+                                    
+                                        <li>GUATEMALA</li>
+                                    
+                                        <li>GUERNSEY</li>
+                                    
+                                        <li>GUINEA</li>
+                                    
+                                        <li>GUINEA-BISSAU</li>
+                                    
+                                        <li>GUYANA</li>
+                                    
+                                        <li>HAITI</li>
+                                    
+                                        <li>HEARDÖN OCH MCDONALDÖARNA</li>
+                                    
+                                        <li>HELIGA STOLEN (VATIKANSTATEN)</li>
+                                    
+                                        <li>HONDURAS</li>
+                                    
+                                        <li>HONGKONG</li>
+                                    
+                                        <li>UNGERN</li>
+                                    
+                                        <li>ISLAND</li>
+                                    
+                                        <li>INDIEN</li>
+                                    
+                                        <li>INDONESIEN</li>
+                                    
+                                        <li>IRAK</li>
+                                    
+                                        <li>IRLAND</li>
+                                    
+                                        <li>ISLE OF MAN</li>
+                                    
+                                        <li>ISRAEL</li>
+                                    
+                                        <li>ITALIEN</li>
+                                    
+                                        <li>JAMAICA</li>
+                                    
+                                        <li>JAPAN</li>
+                                    
+                                        <li>JERSEY</li>
+                                    
+                                        <li>JORDANIEN</li>
+                                    
+                                        <li>KAZAKSTAN</li>
+                                    
+                                        <li>KENYA</li>
+                                    
+                                        <li>KIRIBATI</li>
+                                    
+                                        <li>SYDKOREA</li>
+                                    
+                                        <li>KOSOVO</li>
+                                    
+                                        <li>KUWAIT</li>
+                                    
+                                        <li>KIRGIZISTAN</li>
+                                    
+                                        <li>LAOS</li>
+                                    
+                                        <li>LETTLAND</li>
+                                    
+                                        <li>LIBANON</li>
+                                    
+                                        <li>LESOTHO</li>
+                                    
+                                        <li>LIBERIA</li>
+                                    
+                                        <li>LIBYEN</li>
+                                    
+                                        <li>LIECHTENSTEIN</li>
+                                    
+                                        <li>LITAUEN</li>
+                                    
+                                        <li>LUXEMBURG</li>
+                                    
+                                        <li>MACAO</li>
+                                    
+                                        <li>NORDMAKEDONIEN</li>
+                                    
+                                        <li>MADAGASKAR</li>
+                                    
+                                        <li>MALAWI</li>
+                                    
+                                        <li>MALAYSIA</li>
+                                    
+                                        <li>MALDIVERNA</li>
+                                    
+                                        <li>MALI</li>
+                                    
+                                        <li>MALTA</li>
+                                    
+                                        <li>MARSHALLÖARNA</li>
+                                    
+                                        <li>MARTINIQUE</li>
+                                    
+                                        <li>MAURETANIEN</li>
+                                    
+                                        <li>MAURITIUS</li>
+                                    
+                                        <li>MAYOTTE</li>
+                                    
+                                        <li>MEXIKO</li>
+                                    
+                                        <li>MIKRONESIEN</li>
+                                    
+                                        <li>MOLDAVIEN</li>
+                                    
+                                        <li>MONACO</li>
+                                    
+                                        <li>MONGOLIET</li>
+                                    
+                                        <li>MONTENEGRO</li>
+                                    
+                                        <li>MONTSERRAT</li>
+                                    
+                                        <li>MAROCKO</li>
+                                    
+                                        <li>MOÇAMBIQUE</li>
+                                    
+                                        <li>MYANMAR</li>
+                                    
+                                        <li>NAMIBIA</li>
+                                    
+                                        <li>NAURU</li>
+                                    
+                                        <li>NEPAL</li>
+                                    
+                                        <li>NEDERLÄNDERNA</li>
+                                    
+                                        <li>NEDERLÄNDSKA ANTILLERNA</li>
+                                    
+                                        <li>NYA KALEDONIEN</li>
+                                    
+                                        <li>NYA ZEELAND</li>
+                                    
+                                        <li>NICARAGUA</li>
+                                    
+                                        <li>NIGER</li>
+                                    
+                                        <li>NIGERIA</li>
+                                    
+                                        <li>NIUE</li>
+                                    
+                                        <li>NORFOLKÖN</li>
+                                    
+                                        <li>NORDMARIANERNA</li>
+                                    
+                                        <li>NORGE</li>
+                                    
+                                        <li>OMAN</li>
+                                    
+                                        <li>PAKISTAN</li>
+                                    
+                                        <li>PALAU</li>
+                                    
+                                        <li>OCKUPERADE PALESTINSKA TERRITORIER</li>
+                                    
+                                        <li>PANAMA</li>
+                                    
+                                        <li>PAPUA NYA GUINEA</li>
+                                    
+                                        <li>PARAGUAY</li>
+                                    
+                                        <li>PERU</li>
+                                    
+                                        <li>FILIPPINERNA</li>
+                                    
+                                        <li>PITCAIRNÖARNA</li>
+                                    
+                                        <li>POLEN</li>
+                                    
+                                        <li>PORTUGAL</li>
+                                    
+                                        <li>PUERTO RICO</li>
+                                    
+                                        <li>QATAR</li>
+                                    
+                                        <li>RÉUNION</li>
+                                    
+                                        <li>RUMÄNIEN</li>
+                                    
+                                        <li>RYSSLAND</li>
+                                    
+                                        <li>RWANDA</li>
+                                    
+                                        <li>SAINT BARTHÉLEMY</li>
+                                    
+                                        <li>SANKTA HELENA</li>
+                                    
+                                        <li>SAINT KITTS OCH NEVIS</li>
+                                    
+                                        <li>SAINT LUCIA</li>
+                                    
+                                        <li>SAINT-MARTIN</li>
+                                    
+                                        <li>SAINT-PIERRE OCH MIQUELON</li>
+                                    
+                                        <li>SAINT VINCENT OCH GRENADINERNA</li>
+                                    
+                                        <li>SAMOA</li>
+                                    
+                                        <li>SAN MARINO</li>
+                                    
+                                        <li>SÃO TOMÉ OCH PRÍNCIPE</li>
+                                    
+                                        <li>SAUDIARABIEN</li>
+                                    
+                                        <li>SENEGAL</li>
+                                    
+                                        <li>SERBIEN</li>
+                                    
+                                        <li>SEYCHELLERNA</li>
+                                    
+                                        <li>SIERRA LEONE</li>
+                                    
+                                        <li>SINGAPORE</li>
+                                    
+                                        <li>SLOVAKIEN</li>
+                                    
+                                        <li>SLOVENIEN</li>
+                                    
+                                        <li>SALOMONÖARNA</li>
+                                    
+                                        <li>SOMALIA</li>
+                                    
+                                        <li>SYDAFRIKA</li>
+                                    
+                                        <li>SYDGEORGIEN OCH SYDSANDWICHÖARNA</li>
+                                    
+                                        <li>SPANIEN</li>
+                                    
+                                        <li>SRI LANKA</li>
+                                    
+                                        <li>SUDAN</li>
+                                    
+                                        <li>SURINAM</li>
+                                    
+                                        <li>SVALBARD OCH JAN MAYEN</li>
+                                    
+                                        <li>SWAZILAND</li>
+                                    
+                                        <li>SVERIGE</li>
+                                    
+                                        <li>SCHWEIZ</li>
+                                    
+                                        <li>TAIWAN</li>
+                                    
+                                        <li>TADZJIKISTAN</li>
+                                    
+                                        <li>TANZANIA</li>
+                                    
+                                        <li>THAILAND</li>
+                                    
+                                        <li>ÖSTTIMOR</li>
+                                    
+                                        <li>TOGO</li>
+                                    
+                                        <li>TOKELAU</li>
+                                    
+                                        <li>TONGA</li>
+                                    
+                                        <li>TRINIDAD OCH TOBAGO</li>
+                                    
+                                        <li>TUNISIEN</li>
+                                    
+                                        <li>TURKIET</li>
+                                    
+                                        <li>TURKMENISTAN</li>
+                                    
+                                        <li>TURKS- OCH CAICOSÖARNA</li>
+                                    
+                                        <li>TUVALU</li>
+                                    
+                                        <li>UGANDA</li>
+                                    
+                                        <li>UKRAINA</li>
+                                    
+                                        <li>FÖRENADE ARABEMIRATEN</li>
+                                    
+                                        <li>STORBRITANNIEN</li>
+                                    
+                                        <li>USA</li>
+                                    
+                                        <li>FÖRENTA STATERNAS MINDRE ÖAR I OCEANIEN OCH VÄSTINDIEN</li>
+                                    
+                                        <li>URUGUAY</li>
+                                    
+                                        <li>UZBEKISTAN</li>
+                                    
+                                        <li>VANUATU</li>
+                                    
+                                        <li>VENEZUELA</li>
+                                    
+                                        <li>VIETNAM</li>
+                                    
+                                        <li>BRITTISKA JUNGFRUÖARNA</li>
+                                    
+                                        <li>AMERIKANSKA JUNGFRUÖARNA</li>
+                                    
+                                        <li>WALLIS OCH FUTUNA</li>
+                                    
+                                        <li>VÄSTSAHARA</li>
+                                    
+                                        <li>JEMEN</li>
+                                    
+                                        <li>ZAMBIA</li>
+                                    
+                                        <li>ZIMBABWE</li>
+                                    </ul>
+                                    <p class="assist-text"></p>
+                                    <p class="error-text"></p>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <div class="form-mline-container">
+                                    <div class='form-mline-floating-label'>
+                                        <label class="form-label form-mline-label">Berätta hur vi kan hjälpa dig.<span class="redAsterisk">*</span></label>
+                                    </div>
+                                    <textarea name="comments" class="comments form-text form-mline-text req"></textarea>
+                                </div>
+                                <p class="error-text"></p>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="optin-agreement">
+                                    <span>
+                                        Ja tack, håll kontakt via mejl. 
+                                        <a href="https://i.dell.com/sites/csdocuments/Legal_Docs/en/List-of-Dell-Technologies-Entities-for-Privacy-Statement.pdf" target="_blank" rel="noopener">Dell Technologies och dess företagsgrupp</a>
+                                         skulle gärna vilja hålla kontakten och hålla dig uppdaterad om produkter, tjänster, lösningar, exklusiva erbjudanden och speciella evenemang. För information om hur vi kan skydda dina personliga data, se vår               
+                                         Om du vill ha mer information om hur Dell använder, delar och skyddar dina personuppgifter kan du läsa vår
+                                        <a href="../../../../learn/ed/en/edcorp1/policies-privacy-country-specific-privacy-policy.html" target="_blank" rel="noopener">Sekretesspolicy.</a>
+                                        Om du redan tar del av Dells fantastiska erbjudanden kan du klicka
+                                        <a href="../../../../preferences/em/indexf1b7.html?c=us&amp;l=en&amp;s=&amp;ee=f&amp;e==" target="_blank" rel="noopener">här</a>
+                                        för att logga in och uppdatera dina inställningar.
+                                    </span>
+                                </div>
+                            </div>
+
+                            <input class="error-msg" type="hidden" name="error-msg" value="{&#34;messages&#34;:{&#34;country&#34;:{&#34;required&#34;:&#34;Plats är obligatoriskt&#34;},&#34;license-agreement&#34;:{&#34;required&#34;:&#34;Please select the checkbox to agree with Terms and Conditions.&#34;},&#34;firstname&#34;:{&#34;minlength&#34;:&#34;Förnamnet innehåller ett ogiltigt värde&#34;,&#34;checkPattern&#34;:&#34;Förnamnet innehåller ett ogiltigt värde&#34;,&#34;checkspecWord&#34;:&#34;Förnamnet innehåller ett ogiltigt värde&#34;,&#34;maxlength&#34;:&#34;Högst 40 tecken&#34;,&#34;checkurl&#34;:&#34;Webbadresser tillåts inte i det här fältet&#34;,&#34;required&#34;:&#34;Förnamn är obligatoriskt&#34;},&#34;comments&#34;:{&#34;maxlength&#34;:&#34;Högst 32 000 tecken&#34;,&#34;required&#34;:&#34;Kommentarer är obligatoriska&#34;},&#34;checkbox[]&#34;:{&#34;required&#34;:&#34;Välj en&#34;},&#34;title&#34;:{&#34;minlength&#34;:&#34;Rubriken innehåller ett ogiltigt värde&#34;,&#34;checkPattern&#34;:&#34;Rubriken innehåller ett ogiltigt värde&#34;,&#34;checkspecWord&#34;:&#34;Rubriken innehåller ett ogiltigt värde&#34;,&#34;maxlength&#34;:&#34;Högst 40 tecken&#34;,&#34;required&#34;:&#34;Titel är obligatoriskt&#34;},&#34;purchase-time&#34;:{&#34;required&#34;:&#34;Tidsram för inköp är obligatoriskt&#34;},&#34;lastname&#34;:{&#34;minlength&#34;:&#34;Efternamnet innehåller ett ogiltigt värde&#34;,&#34;checkPattern&#34;:&#34;Efternamnet innehåller ett ogiltigt värde&#34;,&#34;checkspecWord&#34;:&#34;Efternamnet innehåller ett ogiltigt värde&#34;,&#34;maxlength&#34;:&#34;Högst 80 tecken&#34;,&#34;checkurl&#34;:&#34;Webbadresser tillåts inte i det här fältet&#34;,&#34;required&#34;:&#34;Efternamn är obligatoriskt&#34;},&#34;radio&#34;:{&#34;required&#34;:&#34;Välj en&#34;},&#34;phone&#34;:{&#34;checkminlength&#34;:&#34;Ange minst 5 siffror&#34;,&#34;customRegExp&#34;:&#34;Ange inte samma nummer för alla&#34;,&#34;checkmaxlength&#34;:&#34;Ange högst 15 siffror&#34;,&#34;required&#34;:&#34;Telefonnummer är obligatoriskt&#34;},&#34;company&#34;:{&#34;minlength&#34;:&#34;Företaget innehåller ett ogiltigt värde&#34;,&#34;checkPattern&#34;:&#34;Företaget innehåller ett ogiltigt värde&#34;,&#34;checkspecWord&#34;:&#34;Företaget innehåller ett ogiltigt värde&#34;,&#34;maxlength&#34;:&#34;Högst 150 tecken&#34;,&#34;checkurl&#34;:&#34;Webbadresser tillåts inte i det här fältet&#34;,&#34;required&#34;:&#34;Företagsnamn är ett obligatoriskt fält&#34;},&#34;employee-count&#34;:{&#34;required&#34;:&#34;Antal anställda är obligatoriskt&#34;},&#34;email&#34;:{&#34;customRegExp&#34;:&#34;Ogiltigt mejlformat&#34;,&#34;checkspecWord&#34;:&#34;Mejlet innehåller ett ogiltigt värde&#34;,&#34;maxlength&#34;:&#34;Högst 250 tecken&#34;,&#34;checkurl&#34;:&#34;Webbadresser tillåts inte i det här fältet&#34;,&#34;required&#34;:&#34;Mejladress är obligatoriskt&#34;}}}"/>
+                            <input type="hidden" class="contactUsform-omnitureid" name="OmnitureID" value=""/>
+                            <input type="hidden" class="customId" name="customId" value=""/>
+                            <input type="hidden" class="campaignName" name="campaignName" value=""/>
+                            <input type="hidden" class="pSolution" name="pSolution" value=""/>
+                            <input type="hidden" class="contactForm-webId" name="WebID" value="75000287"/>
+
+                            <div class="specWordForEmail hide">
+                                <ul>
+                                    <li>@test.com</li>
+                                
+                                    <li>@none.com</li>
+                                
+                                    <li>fake</li>
+                                
+                                    <li>fuck</li>
+                                
+                                    <li>sex</li>
+                                
+                                    <li>pornografy</li>
+                                
+                                    <li>pornography</li>
+                                
+                                    <li>@spamgourmet.com</li>
+                                
+                                    <li>solutionsnurture</li>
+                                
+                                    <li>davidcarlander</li>
+                                
+                                    <li>ioninteractive.com</li>
+                                
+                                    <li>alinean.com</li>
+                                
+                                    <li>mediafly.com</li>
+                                
+                                    <li>witco.com</li>
+                                
+                                    <li>emc.com</li>
+                                
+                                    <li>pivotal.io</li>
+                                
+                                    <li>vmware.com</li>
+                                
+                                    <li>secureworks.com</li>
+                                
+                                    <li>virtustream.com</li>
+                                
+                                    <li>rsa.com</li>
+                                
+                                    <li>vce.com</li>
+                                
+                                    <li>dellteam.com</li>
+                                
+                                    <li>@email.tst</li>
+                                
+                                    <li>@ail.com</li>
+                                
+                                    <li>@example.com</li>
+                                
+                                    <li>@a.com</li>
+                                
+                                    <li>@bozzcello.com</li>
+                                
+                                    <li>@c.com</li>
+                                
+                                    <li>@logodez.com</li>
+                                
+                                    <li>@5k2u.com</li>
+                                
+                                    <li>@aregods.com</li>
+                                
+                                    <li>@cc.cc</li>
+                                
+                                    <li>@b.com</li>
+                                
+                                    <li>@appzsdsfsdily.com</li>
+                                
+                                    <li>@galotv.com</li>
+                                
+                                    <li>@vivaldigital.com</li>
+                                
+                                    <li>@bozztirex.us</li>
+                                
+                                    <li>@no.com</li>
+                                
+                                    <li>@bugcrowd.com</li>
+                                
+                                    <li>@bugcrowdanalyst.com</li>
+                                
+                                    <li>@bugcrowdninja.com</li>
+                                
+                                    <li>@bozztirex.us</li>
+                                
+                                    <li>@bozzcello.com</li>
+                                
+                                    <li>@na.com</li>
+                                </ul>
+                            </div>
+
+                            <div class="specWordForOther hide">
+                                <ul>
+                                    <li>test</li>
+                                
+                                    <li>asdf</li>
+                                
+                                    <li>reseller</li>
+                                
+                                    <li>bugcrowdtest</li>
+                                
+                                    <li>doe</li>
+                                
+                                    <li>no</li>
+                                
+                                    <li>nope</li>
+                                
+                                    <li>me</li>
+                                
+                                    <li>user</li>
+                                
+                                    <li>none</li>
+                                
+                                    <li>admin</li>
+                                
+                                    <li>ranjitkolhal5757</li>
+                                
+                                    <li>fuck</li>
+                                
+                                    <li>sex</li>
+                                
+                                    <li>pornografy</li>
+                                
+                                    <li>pornography</li>
+                                </ul>
+                            </div>
+
+                            <div class="submit-btn">
+                                <button type="submit" value="Submit" class="btn primary cta-v2">
+                                    <div class="cta-body">
+                                        <span class="cta-text">Skicka</span>
+                                        <span class="loading-icon"></span>
+                                    </div>
+                                </button>
+                                <span class="submit-error-text" aria-live="assertive">Hoppsan! Vissa obligatoriska fält saknas.</span>
+                            </div>
+                        </form>
+                        <div class="confirmation-msg hide">
+                            <p class='headline'>Tack</p>
+                            <p>Tack för din förfrågan. En säljare kommer snart att kontakta dig.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="livechat-overlay widget-livechat" style="display:none;">
+    <div class="livechat-header">
+        <img src="https://dellicm-dell-na174.secure.force.com/liveAgentSetupFlow/resource/Dell_Chat_Logo_SVG" alt=""/>
+        <h2>Dells virtuella assistent</h2>
+        <a class="close-btn" tabindex="0" title="Stäng dialogruta"></a>
+    </div>
+    <div class="livechat-container">
+        <div class="livechat-option">
+            <p class="option-title">Kontakta supporten</p>
+            <p class="option-text">Kontrollera beställningsstatus och få teknisk support</p>
+            <a class="livechat-contact btn primary cta-v2 dellmetrics-dataclick" target="_blank" rel="noopener" href="../../../../support/contents/sv-se/category/Contact-Information.html" data-metrics="{'btnname':'cta|chat|supportinquiry'}">
+                <div class="cta-body">
+                    <span class="cta-text">Kontakta supporten</span>
+                    </div>
+            </a>
+        </div>
+
+        <div class="livechat-option">
+            <p class="option-title">Försäljningschatt</p>
+            <p class="option-text">Få vägledning om IT-lösningar för ditt företag</p>
+            <a class="livechat-chat btn primary cta-v2 dellmetrics-dataclick" href="javascript:void(0);" data-metrics="{'btnname':'cta|chat|businessadvisor'}">
+                <div class="cta-body">
+                    <span class="cta-text">Chat with a Business Advisor</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <input type="hidden" class="contact-drawer" value="ucx_contact_drawer"/>
+</div>
+
+
+
+<!-- Ensighten End -->
+
+    
+
+
+</body>
+
+
+
+
+<!-- Mirrored from www.dell.com/sv-se/dt/product-demos/cloud-native-apex-and-tanzu/index.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Dec 2022 18:29:13 GMT -->
+</html>    

@@ -1,0 +1,15 @@
+.text03-view .footnote a{text-decoration:underline;color:inherit}
+.text03-view li:not(:last-child){margin-bottom:1em}
+@media screen and (min-width:1280px){.text03-view .footnote{width:66%}
+.text03-view .align-left .footnote,.text03-view .align-default .footnote{margin-right:auto}
+.text03-view .align-right .footnote{margin-left:auto}
+.text03-view .align-center .footnote{margin-left:auto;margin-right:auto}
+.text03-view .align-indented{margin-left:0}
+.text03-view .align-indented .footnote{margin-left:16.66%}
+}
+@media screen and (min-width:1280px)and (max-width:1599.9px){.text03-view .xl-1 .wrapper-text{max-width:66%}
+.columns:not(.full) .text03-view .xl-1 .wrapper-text{max-width:inherit}
+}
+@media screen and (min-width:1600px){.text03-view .xxl-1 .wrapper-text{max-width:66%}
+.columns:not(.full) .text03-view .xxl-1 .wrapper-text{max-width:inherit}
+}

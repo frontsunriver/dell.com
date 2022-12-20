@@ -1,0 +1,49 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.dell.com	TRUE	/support/contents	FALSE	1999999999	samesite	lax
+www.dell.com	TRUE	/support/diagnose	FALSE	1999999999	.AspNetCore.Antiforgery.RqTRcBqlHHA	CfDJ8Crjj_PdDT9JiRl5A6OKmyDpHzSqTynbPB8PSfek8Z4FUWKotl-Z85oetltMhb0qvJsBKYMpAWvC02fKRD4syFGj706WmsP5Ms77s3tppwuYKe4lHs3Iaun9tiCdooERuFqsNBtKsBw3FdTkJMAOwyc
+.dell.com	TRUE	/	FALSE	1999999999	DellCEMSession	01ED277FE6A42FEE19636B42DB1DC229
+dell.com	TRUE	/	FALSE	1999999999	AKA_A2	A
+.dell.com	TRUE	/	FALSE	1999999999	dais-aspNsId	bif24mnmkp105rapkxeb3npg
+.dell.com	TRUE	/	FALSE	1999999999	dais-c	xiJtJgi+m5M0NiOKuXQuvK06Hya8R6BYAQAlY6yw2T5UOtIlQWcWRngSXTcEdZIS
+.dell.com	TRUE	/	FALSE	1999999999	dais-ctxt	bif24mnmkp105rapkxeb3npg
+.dell.com	TRUE	/	FALSE	1999999999	dais-a	mqtfcYZhITNil5zDvtqqwJRTjstou0IHn-OwNirc8i8MCKity9J0l-aroGjXt3_R5nuRKyX49m1zWhcKrB6fHYuZjoY1
+dell.com	TRUE	/	FALSE	1999999999	di_dwa	e66f5097-2a3e-4f8e-9856-b85abc3826f3
+www.dell.com	TRUE	/	FALSE	1999999999	di_csrf	CfDJ8ImjdKocpl1KhD2c5B1qw1SbdDEAV_sBZ2e-2CXCmNGFrKZfPFPv3fDC-z8RnUPGeHISSklPkuUMEWRgCR4rvwF5OEdLVbCXaU40pLFX4Rj4z91KuXpXpimPA6bD967fP-HOGNi8Ui5uGcwIrfWGufk
+.dell.com	TRUE	/	FALSE	1999999999	rvps_emcproduct	rvps_emcproduct=|28468
+.dell.com	TRUE	/	FALSE	1999999999	X-esup-xsrf-token	%2BH7ts21YTjWuvKsYrUJzOw2moV4z2hIi7QfqrhJVCCgUpow3mWYvFQYNoekw5qssi%2FZbxVeyH74KsQ91kkEQQ2Q8NlWDA0tm2qs7pHmgAbdLBAhUqWRtZIAWup5aopti1mlz84XEnlar%2BrnUec5zGw%3D%3D
+.dell.com	TRUE	/	FALSE	1999999999	sec_cpt	8AEF82B72C38666541646C5D99A07381~1~YAAQrCvJF4lRwReFAQAAFgrgIAgPwC6VZfFeVknxzjtGXHvPQQq7KmeU8DHehgXR9b+d3F6QJY6kUzItzpzHxVWK0pF4/4uaqPL/7bdWM/ayRlkujTHtSclpvaw02MRPjWkjwjMB+PI9NsrcR/p4rj/U988Zt29msn7MZBC+tw2VzyVfjrHy1TMxGNVyT6ZfFHyMweeVCWfMm3KYpLzyGQ2JLJqKoYostrgEsrfDs+D4IwtItYu3jqcDAx4ljf2rKUF8GIUKNHPB6VsyQCTRA7fO5Ewj1RFI4bVaAiZ2mVU9Rl0HXMSLgsyFxI97iTVKonJhGNhpm4i1xOOlIfzuq7WoLMPKwRyRJpHQNL0Lj5wae6l6gc/nG/Ofeu0LM6PfuRmxbVBmf0qkn+/1OFsrcHlUGKwk9M5+QX0uYGW4z5Uk6wP7ow2i5FoTdpQUVcixeLW0D9HDVjeyGvGQBkf87wUZv7W1gsO5dDS0aZH4e9t5oPAxc9oo7pJGIZ/dhtYPdrZaBGmyuZdcsED+N3EZOZUvHc79v6TASIdeAlAOTI6hGfqFp2s=
+www.dell.com	TRUE	/	FALSE	1999999999	LithiumCookiesAccepted	0
+.delltechnologies.com	TRUE	/	FALSE	1999999999	reDir	/content/dam/delltechnologies/assets/press/resources/Dell_Technologies_Key_Facts.pdf
+www.dell.com	TRUE	/	FALSE	1999999999	akaas_Identity_US	1673891299~rv=96~id=ce55f6638898813c3ccc22ae82ccfe7b
+c.la4-c2-ia5.salesforceliveagent.com	TRUE	/	FALSE	1999999999	X-Salesforce-CHAT	!YJQtMJIf0Xz06V27/EMPTLWjU8g9baLe/el4fzDNW29YeyaJx7Z1rz1CUVB9fW5fk5+OJ0Iz7LtJ1A==
+dellservices.my.salesforce.com	TRUE	/	FALSE	1999999999	CookieConsentPolicy	0:1
+dellservices.my.salesforce.com	TRUE	/	FALSE	1999999999	LSKey-c$CookieConsentPolicy	0:1
+.salesforce.com	TRUE	/	FALSE	1999999999	BrowserId	VxfzzH40Ee2uPiM4Tk9f-w
+www.dell.com	TRUE	/	FALSE	1999999999	AWSALB	DIhG6RXBqUsv0qrgjs57l+2SE2W4eJTVq1jZIR2fghyxDy6DTFfPq+soIbM5N61UumpR2nsrYtnFqZIaMvdpmaz4k+wXqbUTWgNw/58BlumK/bL647Uldx+8bxSC
+www.dell.com	TRUE	/	FALSE	1999999999	AWSALBCORS	DIhG6RXBqUsv0qrgjs57l+2SE2W4eJTVq1jZIR2fghyxDy6DTFfPq+soIbM5N61UumpR2nsrYtnFqZIaMvdpmaz4k+wXqbUTWgNw/58BlumK/bL647Uldx+8bxSC
+www.dell.com	TRUE	/	FALSE	1999999999	LiSESSIONID	E2D79DFA776CA57DA7EAD0AA3728B2E9
+www.dell.com	TRUE	/	FALSE	1999999999	lia.anon.profile.language	en
+www.dell.com	TRUE	/	FALSE	1999999999	LithiumVisitor	~2bGHKuMbuDEOZYlvU~MkpbxCnwqp3EZ2fDSXtbnuiW6L8z9_4UFAhUfSW4Z9St87oMwBk7WhK18-1i7uziMt4rK72KZc4JkufI3Em84g..
+.dell.com	TRUE	/	FALSE	1999999999	dc-ctxt	c=US&l=en
+www.dell.com	TRUE	/	FALSE	1999999999	inputArticleNo	000125103
+.dell.com	TRUE	/	FALSE	1999999999	eds	1prt2f0fghsshia1ydsqnfdj
+www.dell.com	TRUE	/	FALSE	1999999999	learntaxonomy	prevBreadCrumbPathWithNodeID=terms#LEGL:NAV_legal-terms#840e0c58-7e40-41ca-a459-1de3fb54029b|policies#LEGL:NAV_legal-policies#a41b0c78-ed2f-4226-a422-6cb0a067c4db|policies-privacy#LEGL:NAV_legal-policies-privacy#094c2c32-ab67-4aa7-86f6-c69433438036
+www.dell.com	TRUE	/	FALSE	1999999999	SESSION	MmE1YTQxYWQtNGNlMi00YTFmLWEwOTYtOWU3ZGQ1NjcxNDJj
+.dell.com	TRUE	/	FALSE	1999999999	lwprofile	c=se&l=sv&s=bsd&cs=sebsdt1
+www.dell.com	TRUE	/	FALSE	1999999999	JSESSIONID	CfDJ8EEbbbHtQ7dJgIBmU6QcB1855MT2rJCjAyvDHYn2Yf28cOa9OsgKQ3AKRGDnfiAKU6q5RjmemywjtEZguLsBj5Ntk2P4KZAOGxd3lkpRMXzO5AU%2Btp5y%2FIFSPKvJdAqEjih7u%2F6wd41wrZreNPuDP%2Fx%2Fo4fIPTUleIGVGkGQmgU4
+www.dell.com	TRUE	/	FALSE	1999999999	__VCAP_ID__	e8f7777b-14a4-485d-4f6c-98a1
+.dell.com	TRUE	/	FALSE	1999999999	eSupId	SID=7b5b17aa-0577-4ad1-80f7-cd1f59cf6e11&ld=20230617
+.dell.com	TRUE	/	FALSE	1999999999	lwp	c=se&l=sv&cs=sebsdt1&s=bsd
+.dell.com	TRUE	/	FALSE	1999999999	OLRProduct	OLRProduct=|xps-17-9720-laptop
+www.dell.com	TRUE	/	FALSE	1999999999	akaas_dell_com_support_splits	1671305751~rv=82~id=d46ecd417bcb531538391039bc653934
+.dell.com	TRUE	/	FALSE	1999999999	dell_canary	live
+www.dell.com	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	syzj0bzozeulthljzk4tfmsf
+.dell.com	TRUE	/	FALSE	1999999999	dc-auth	wmn22o2cHHgs7cCeIuOYEkyMTdkYTnjAAOjAwugs7xh2laDXCE9uu9OkONFCOM0s
+www.dell.com	TRUE	/	FALSE	1999999999	samesite	none
+www.dell.com	TRUE	/	FALSE	1999999999	SameSite	None
+.dell.com	TRUE	/	FALSE	1999999999	akGD	country":"SE", "region":"AB"
+www.dell.com	TRUE	/	FALSE	1999999999	akavpau_maintenance_vp	1671306604~id=500a5888f830c6cf15b5f6775fec9305
+.dell.com	TRUE	/	FALSE	1999999999	_abck	E11FD206F1A9711734EAEE5FAF575AA8~-1~YAAQtSvJF5i2RRSFAQAAj12eIQlbUp5cdO+rGhReB9YSHjVMfW0hlnurJqthrH7xIP57WuM02mSWqHgi9ZWMCrD+EzQQEauTe/C8+BSaoaPJ2IMzyWFLWKT+8PJf7Zy5eS0jg7Q1JK2if+TBB0YzkN5coh7LBd5Om52W5lV6z6krocSd+jHxSin1o3Yragj/ddCRZstx/DvuuZ4IlmDckrOhL0nvEB4we6S912YYGlxOcUEJgfQru4ByQ49mlscW2JagBWxeENzzc7CtK3E9TYc3VS2TacU8yFSAVWSBGD2CQEjTFy0FxkEsey6nEOY2HbcJq//vpUGdr2N/zde2ZDuC~-1~-1~-1
+.dell.com	TRUE	/	FALSE	1999999999	bm_sz	1C4C9116BDB13A802DA9A07B90604E95~YAAQtSvJF5m2RRSFAQAAj12eIRLfHEAbafRvBDyfH+FjqQTaoUMNO5sh8ded2eUG243lEQjthh3g34GUkEIO/oPJ9uQS/NZRDhSK6fvxPcle0F7AEFx+ioM22eCnZ0De+kGWGeWXEa0G3GWQia5v+6NKBq5AciOsq7MosuptuKzzMPYWNe98dBPhS75OeJwau5uWSLKwub4deobtUyKlhoJj/ZZj/v1UuuKf0Usdnq36JKu1LKKBPU5p+2SzszN2DSlOXKkGuUztNlYYt45Z1t606PkvBYCJFhaweUqmdXip~4342065~3748418
+

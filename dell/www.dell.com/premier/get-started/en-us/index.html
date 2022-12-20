@@ -1,0 +1,727 @@
+
+<html>
+
+<!-- Mirrored from www.dell.com/premier/get-started/en-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Dec 2022 18:21:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/premier/get-started/en-us/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" crossorigin href="../../../../uicore.dellcdn.com/1.6.0/css/dds-reboot.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../uicore.dellcdn.com/1.6.0/css/dds-all-with-fonts.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.0.2/css/dds-reboot.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.0.2/css/dds-fonts.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.0.2/css/dds-icons.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.0.2/css/dds-helpers.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.0.2/css/dds-main.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.0.2/css/dds-reboot-wrapper.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.4.0/css/dds-icons.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.5.0/css/dds-reboot.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.5.0/css/dds-fonts.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.5.0/css/dds-icons.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.5.0/css/dds-helpers.min.css" />
+    <link rel="stylesheet" crossorigin href="../../../../dds.dell.com/components/2.5.0/css/dds-main.min.css" />
+    <script crossorigin="anonymous" src="../../../../dds.dell.com/components/2.5.0/js/index.min.js"></script>
+    <link href="css/site.css" rel="stylesheet" />
+    <title>CustomerSelfOnboarding</title>
+</head>
+<body>
+    
+
+
+<div class="page" b-rxclv0rha3><main b-rxclv0rha3><article class="content px-4" style="background: #ffff;" b-rxclv0rha3><div class="m-0 p-0" id="dvStoreComponent" style="height: 100vh;"><div class="responsiveparent dds__row"><div style="background: #ffff"><div class="mt-3 ml-0 mb-5"><a href="../../../index.html"><img class="dell-image" src="../../../../i.dell.com/sites/csimages/Premier_Imagery/all/DellImage.png" onerror="this.onerror=null;this.src=&#x27;https://i.dell.com/sites/csimages/Premier_Imagery/all/DellImage.png&#x27;;" /></a></div>
+            <div class="dds__row" style="display:flex;justify-content:center"><h1 id="heading">Create a Premier Page</h1></div>
+            <div class="dds__row subHeading-left">Get access to your Premier page when you create an account
+                <input type="hidden" id="regionCodeID" value="AP" />
+                <input type="hidden" id="buID" value="1401" />
+                <input type="hidden" id="countryCookieID" value="AU" />
+                <input type="hidden" id="languageCookieID" value="EN" />
+                <input type="hidden" id="salesonweremailId">
+                <input type="hidden" id="AccID"></div>
+            <div class="dds__row subHeading-left"></div>
+            <div class="dds__row" style="display:flex;justify-content:center"><div class="dds__input-text__container" style="width:26rem"><div class="dds__select " data-dds="select"><label id="select-Label" class="content" for="select-0">Select one of the following</label>
+                        <a id="clickHere" onclick="showHelpCustomer()" class="cursor-link fright content">Find Help</a>
+                        <div class="dds__select__wrapper mb-4"><select id="categoryID" name="category" class="dds__select__field" onchange="clearCategoryText()"><option value="Customer Number">Customer Number</option><option value="Order Number">Order Number</option></select>
+                            <span id="spn_categoryID" style="color: red;" class="validation-message"></span></div></div></div></div>
+            <div class="dds__row" style="display:flex;justify-content:center"><div class="dds__input-text__container" style="width:26rem"><div class="dds__input-text__wrapper"><input type="text" class="dds__input-text" id="customeromegaID" onblur="validateFeild('customeromegaID')">
+                        <span id="spn_customeromegaID" style="color: red;" class="validation-message"></span></div></div></div>
+            <div class="dds__row" style="display:flex;justify-content:center"><div style="width: 26rem; display:none; margin-top: 3rem" id="isrID"><div><img src="../../../../i.dell.com/sites/csimages/Premier_Imagery/all/informatioIcon.png" /></div>
+                    <div style="color:grey;font-size:12px;" class="ml-1" id="isrMailID"></div></div></div>
+            <div class="dds__row" style="display:flex;justify-content:center"><div style="display:flex;margin:1rem"><span class="ml-1"><a id="clickHereSupport" onclick="showFindsales()" class="cursor-link">New to Dell? Contact us</a></span></div></div>
+            <div class="dds__row" style="display:flex;justify-content:center"><div style="width:26rem"><button type="button" onclick="continueClick()" id="storeSubmitBtn" class="dds__button dds__button--lg mt-3" style="width:26rem">Continue</button></div></div></div>
+        <div style="background: rgba(238, 238, 238, 0.4);"><div class="dds__row" style="display:flex;justify-content:center"><h1 style="margin-top:5.9rem" id="heading">Dell Premier</h1></div>
+<div class="dds__row" style="justify-content:center"><div style="width: 100%; color: grey; display: flex; justify-content: center; text-align: center; padding: 0rem 1rem 2rem 1rem; max-width:550px;">Modernize your IT procurement and save money and time when you shop from a personalized site</div></div>
+
+<div class="dds__container premierSolutions-desktop"><div class="dds__row"><div class="dds__col-4"><div style="display:flex;justify-content:center"><i class="dds__icon  dds__icon--shield-check icon"></i></div>
+            <div style="display:flex;justify-content:center;margin:0.5rem 0.5rem; font-size: 14px">Simplify Purchasing</div>
+            <div class="management-sol">Cut costs, user errors and delivery times with an optimized buying process.</div></div>
+        <div class="dds__col-4"><div style="display:flex;justify-content:center"><i class="dds__icon dds__icon--stack icon"></i></div>
+            <div style="display:flex;justify-content:center;margin:0.5rem 0.5rem; font-size: 14px">Management Solutions</div>
+            <div class="management-sol">Track orders in real-time, control spending and plan ahead with automation features.</div></div>
+        <div class="dds__col-4"><div style="display:flex;justify-content:center"><i class="dds__icon dds__icon--eye-view-on icon"></i></div>
+            <div style="display:flex;justify-content:center;margin:0.5rem 0.5rem; font-size: 14px">Discover Insights</div>
+            <div class="management-sol">Use robust reports to budget, forecast, lifecycle plan and make informed decisions.</div></div>
+        <div style="margin-top:1rem;width:100%;display:flex;justify-content:center"><img style="width:576px;height:382px" src="../../../../i.dell.com/sites/csimages/Premier_Imagery/all/laptopnew.png" onerror="this.onerror=null;this.src=&#x27;https://i.dell.com/sites/csimages/Premier_Imagery/all/laptopnew.png&#x27;;" /></div></div></div>
+
+<div class="dds__container premierSolutions-mobile"><div class="dds__row"><div style="width:100%;display:flex;justify-content:center"><img style="width: 576px; height: 382px" src="../../../../i.dell.com/sites/csimages/Premier_Imagery/all/laptopnew.png" onerror="this.onerror=null;this.src=&#x27;https://i.dell.com/sites/csimages/Premier_Imagery/all/laptopnew.png&#x27;;" /></div>
+        <div class="dds__col-12 mt-5"><div style="display:flex;justify-content:center"><i class="dds__icon  dds__icon--shield-check icon"></i></div>
+            <div style="display:flex;justify-content:center;margin:0.5rem 0.5rem">Simplify Purchasing</div>
+            <div class="management-sol">Cut costs, user errors and delivery times with an optimized buying process.</div></div>
+        <div class="dds__row"><div class="dds__col-12 mt-5"><div style="display:flex;justify-content:center"><i class="dds__icon dds__icon--stack icon"></i></div>
+                <div style="display:flex;justify-content:center;margin:0.5rem 0.5rem">Management Solutions</div>
+                <div class="management-sol">Track orders in real-time, control spending and plan ahead with automation features.</div></div></div>
+        <div class="dds__row"><div class="dds__col-12 mt-5"><div style="display:flex;justify-content:center"><i class="dds__icon dds__icon--eye-view-on icon"></i></div>
+                <div style="display:flex;justify-content:center;margin:0.5rem 0.5rem">Discover Insights</div>
+                <div class="management-sol">Use robust reports to budget, forecast, lifecycle plan and make informed decisions.</div></div></div></div></div></div></div></div>
+<div class="dds__drawer " aria-hidden="false" data-dds="drawer" id="findCustomerNumber" style="display: none;"><div class="dds__drawer__overlay" aria-hidden="false"></div>
+    <div class="dds__drawer__container"><div class="dds__drawer__header"><a id="close" class="dds__drawer__close cursor-link" onclick="CloseFindCustomerNumberFlyout()"><span>Back</span></a></div>
+        <div class="dds__drawer__body"><div class="dds__modal-body"><div style="font-size: 24px; color: #006BBD; margin-bottom: 0.5rem">Refer to the samples below</div>
+                <hr><h5>Customer Number example</h5><img src="../../../../i.dell.com/sites/csimages/Premier_Imagery/all/Australia_CustomerNumber.png" style="width:40rem" onerror="this.onerror=null;this.src=&#x27;https://i.dell.com/sites/csimages/Premier_Imagery/all/Australia_CustomerNumber.png&#x27;;" /><hr>
+                    <h5>Purchase Order Number example</h5>
+                    <img src="../../../../i.dell.com/sites/csimages/Premier_Imagery/all/Australia_PurchaseOrderNumber.png" style="width:40rem" onerror="this.onerror=null;this.src=&#x27;https://i.dell.com/sites/csimages/Premier_Imagery/all/Australia_PurchaseOrderNumber.png&#x27;;" /></div></div></div></div>
+<form><div class="dds__drawer " aria-hidden="false" data-dds="drawer" id="findsales" style="display: none;"><div class="dds__drawer__overlay" aria-hidden="false"></div>
+        <div class="dds__drawer__container"><div class="dds__drawer__header"><a class="dds__drawer__close cursor-link" id="close" onclick="closeSalesComponent()"><span>Close</span></a></div>
+            <div class="dds__drawer__body customOverflow pt-0"><h1 class="ml-1" style="font-size: 24px; color: #006BBD">Request a sales callback</h1>
+                <div class="dds__row ml-1" style="margin: 0rem 0rem 2rem 0rem; color: grey;">Please leave a few additional details and we will get back to you.</div>
+                <div><div id="displayMessID" class="validation-message mt-2 ml-2" style="font-size:17px;color:forestgreen;display:none"></div></div>
+                <div class="dds__col-12"><div class="dds__row"><div class="dds__col-6 mt-3 mb-4"><div class="dds__input-text__container"><label id="firstNameID-input-label" for="firstNameID-input">First Name</label>
+                                <div class="dds__input-text__wrapper"><input type="text" class="dds__input-text" id="firstNameID" onblur="validateFeild('firstNameID')">
+                                    <span id="spn_firstNameID" style="color: red;" class="validation-message"></span></div></div></div>
+                        <div class="dds__col-6 mt-3 mb-4"><div class="dds__input-text__container"><label id="lastNameID-input-label" for="lastNameID-input">Last Name</label>
+                                <div class="dds__input-text__wrapper"><input id="lastNameID" onblur="validateFeild(&#x27;lastNameID&#x27;)" class="dds__input-text valid"></input>
+                                    <span id="spn_lastNameID" style="color: red;" class="validation-message"></span></div></div></div></div>
+                    <div class="dds__row"><div class="dds__col-6 mt-3 mb-4"><div class="dds__input-text__container"><label id="emailID-input-label" for="emailID-input">Email Address</label>
+                                <div class="dds__input-text__wrapper"><input id="emailID" onblur="onBlurValidEmailPhone(&#x27;EmailValidation&#x27;,&#x27;emailID&#x27;)" class="dds__input-text valid"></input>
+                                    <span id="spn_emailID" style="color: red;" class="validation-message"></span></div></div></div>
+                        <div class="dds__col-6 mt-3 mb-4"><div class="dds__input-text__container"><label id="phoneID-input-label" for="phoneID-input">Phone Number</label>
+                                <div class="dds__input-text__wrapper"><input id="phoneID" onblur="onBlurValidEmailPhone(&#x27;PhoneNumberValidation&#x27;,&#x27;phoneID&#x27;)" class="dds__input-text valid"></input>
+                                    <span id="spn_phoneID" style="color: red;" class="validation-message"></span></div></div></div></div>
+                    <div class="dds__row"><div class="dds__col-6 mt-3 mb-4"><div class="dds__input-text__container"><label id="compID-input-label" for="compID-input">Company Name</label>
+                                <div class="dds__input-text__wrapper"><input id="compID" onblur="validateFeild(&#x27;compID&#x27;)" class="dds__input-text valid"></input>
+                                    <span id="spn_compID" style="color: red;" class="validation-message"></span></div></div></div>
+                        <div class="dds__col-6 mt-3 mb-4"><div class="dds__select " data-dds="select"><label id="select-0Label" for="select-0">Country</label>
+                                <div class="dds__select__wrapper"><select id="country" name="country" disabled class="dds__select__field valid" value="AU"><option>Please Select</option><option value="AI">ANGUILLA</option><option value="AG">ANTIGUA AND BARBUDA</option><option value="AR">ARGENTINA</option><option value="AW">ARUBA</option><option value="AU" selected>AUSTRALIA</option><option value="AT">AUSTRIA</option><option value="BS">BAHAMAS</option><option value="BB">BARBADOS</option><option value="BE">BELGIUM</option><option value="BZ">BELIZE</option><option value="BM">BERMUDA</option><option value="BO">BOLIVIA</option><option value="BR">BRAZIL</option><option value="CA">CANADA</option><option value="KY">CAYMAN ISLANDS</option><option value="CL">CHILE</option><option value="CN">CHINA</option><option value="CO">COLOMBIA</option><option value="CR">COSTA RICA</option><option value="CZ">CZECH REPUBLIC</option><option value="DK">DENMARK</option><option value="DM">DOMINICA</option><option value="DO">DOMINICAN REPUBLIC</option><option value="EC">ECUADOR</option><option value="SV">EL SALVADOR</option><option value="ED">EUROPEAN DISTRIBUTOR BUSINESS</option><option value="FI">FINLAND</option><option value="FR">FRANCE</option><option value="GF">FRENCH GUIANA</option><option value="DE">GERMANY</option><option value="GR">GREECE</option><option value="GD">GRENADA</option><option value="GP">GUADELOUPE</option><option value="GT">GUATEMALA</option><option value="GY">GUYANA</option><option value="HT">HAITI</option><option value="HN">HONDURAS</option><option value="HK">HONG KONG</option><option value="IN">INDIA</option><option value="IE">IRELAND</option><option value="IT">ITALY</option><option value="JM">JAMAICA</option><option value="JP">JAPAN</option><option value="LU">LUXEMBOURG</option><option value="MY">MALAYSIA</option><option value="MQ">MARTINIQUE</option><option value="MX">MEXICO</option><option value="MS">MONTSERRAT</option><option value="NL">NETHERLANDS</option><option value="AN">NETHERLANDS ANTILLES</option><option value="NZ">NEW ZEALAND</option><option value="NI">NICARAGUA</option><option value="NO">NORWAY</option><option value="PA">PANAMA</option><option value="PY">PARAGUAY</option><option value="PE">PERU</option><option value="PL">POLAND</option><option value="PT">PORTUGAL</option><option value="PR">PUERTO RICO</option><option value="RU">RUSSIA</option><option value="SX">SADMG</option><option value="KN">SAINT KITTS &amp; NEVIS</option><option value="LC">SAINT LUCIA</option><option value="VC">SAINT VINCENT AND GRENADINES</option><option value="SG">SINGAPORE</option><option value="SK">SLOVAKIA</option><option value="ZA">SOUTH AFRICA</option><option value="KR">SOUTH KOREA</option><option value="ES">SPAIN</option><option value="SR">SURINAME</option><option value="SE">SWEDEN</option><option value="CH">SWITZERLAND</option><option value="TW">TAIWAN</option><option value="TH">THAILAND</option><option value="TT">TRINIDAD AND TOBAGO</option><option value="TC">TURKS AND CAICOS ISLANDS</option><option value="UK">UNITED KINGDOM</option><option value="US">UNITED STATES</option><option value="UY">URUGUAY</option><option value="VE">VENEZUELA</option><option value="VG">VIRGIN ISLANDS (BRITISH)</option><option value="VI">VIRGIN ISLANDS (U.S.)</option></select>
+                                    <span id="spn_country" style="color: red;" class="validation-message"></span></div></div></div></div>
+                    <div class="mt-3"><button type="button" id="salesSubmitBtn" onclick="salesSubmit()" class="dds__button dds__button--lg btn-create mr-3">Submit</button></div></div></div></div></div></form>
+<div id="dvCmsContent" class="dds__d-none">{&quot;cso_Premier_description&quot;:&quot;Modernize your IT procurement and save money and time when you shop from a personalized site&quot;,&quot;cso_Premier_title&quot;:&quot;Dell Premier Solutions&quot;,&quot;cso_account_type_clickhere&quot;:&quot;Find Help&quot;,&quot;cso_account_type_customer_number&quot;:&quot;Customer Number&quot;,&quot;cso_account_type_customer_number_help&quot;:&quot;Find your Customer Number here&quot;,&quot;cso_account_type_dell_purchase_id&quot;:&quot;Dell Purchase ID&quot;,&quot;cso_account_type_existent&quot;:&quot;This {0} is already associated with a store&quot;,&quot;cso_account_type_headline2&quot;:&quot;Dell Premier&quot;,&quot;cso_account_type_inlinefield&quot;:&quot;Please Select&quot;,&quot;cso_account_type_internal_relationship_number&quot;:&quot;Internet Receipt Number&quot;,&quot;cso_account_type_invalid&quot;:&quot;Enter a valid {0}&quot;,&quot;cso_account_type_label&quot;:&quot;Select one of the following&quot;,&quot;cso_account_type_omegaCustomer_number&quot;:&quot;Omega Customer Number&quot;,&quot;cso_account_type_order_number&quot;:&quot;Order Number&quot;,&quot;cso_cta_cancel_label&quot;:&quot;Cancel&quot;,&quot;cso_cta_continue_label&quot;:&quot;Continue&quot;,&quot;cso_cta_create_label&quot;:&quot;Create Store&quot;,&quot;cso_details_back&quot;:&quot;Back&quot;,&quot;cso_details_close&quot;:&quot;Close&quot;,&quot;cso_details_confirm&quot;:&quot;Yes, please stay in touch by email&quot;,&quot;cso_details_country_label&quot;:&quot;Country&quot;,&quot;cso_details_currency_label&quot;:&quot;Currency&quot;,&quot;cso_details_description&quot;:&quot;Before we set up custom Premier page, we need more information&quot;,&quot;cso_details_email_address_label&quot;:&quot;Email Address&quot;,&quot;cso_details_first_name_label&quot;:&quot;First Name&quot;,&quot;cso_details_language_label&quot;:&quot;Language&quot;,&quot;cso_details_last_name_label&quot;:&quot;Last Name&quot;,&quot;cso_details_phone_number_label&quot;:&quot;Phone Number&quot;,&quot;cso_details_privacy&quot;:&quot;For information on how we protect your personal data, see our&quot;,&quot;cso_details_privacylabel&quot;:&quot;Privacy Statement&quot;,&quot;cso_details_success_label&quot;:&quot;Dear Customer,&quot;,&quot;cso_details_success_message_label&quot;:&quot;Welcome to Premier Solutions, we are creating your premier store. You will recieve a follow up email with login credentials for your Premier Store, within one business day. Please feel free to contact Premier Help desk if you need any assistance.&quot;,&quot;cso_details_success_thankyou&quot;:&quot;Thank you.&quot;,&quot;cso_details_terms&quot;:&quot;Dell Technologies and its group of companies would love to stay in touch to hear about your needs and to keep you updated on products, services, solution, exclusive offers and special events.&quot;,&quot;cso_details_title&quot;:&quot;Premier page for&quot;,&quot;cso_error_CommonMessageError&quot;:&quot;Please provide the valid customer number&quot;,&quot;cso_error_CustomerNumberNotFoundMessage&quot;:&quot;Enter the valid customer number&quot;,&quot;cso_error_ExceptionMessage&quot;:&quot;Error Occured. Please try after sometime&quot;,&quot;cso_error_ExistingCustomerError&quot;:&quot;Provided customer number already exists&quot;,&quot;cso_error_GossError&quot;:&quot;Provided search value doesn&#x27;t match&quot;,&quot;cso_error_InformationMessage&quot;:&quot;The Customer Number entered is not valid please contact your Site Admin or Premier Account Manager&quot;,&quot;cso_error_StoreActiveMessage&quot;:&quot;This Customer number is already associated with a page&quot;,&quot;cso_error_dpId_ExceptionMessage&quot;:&quot;Please provide valid Dell Purchase ID&quot;,&quot;cso_error_irn_ExceptionMessage&quot;:&quot;Please provide valid IRN number&quot;,&quot;cso_error_poNumber_ExceptionMessage&quot;:&quot;Please provide valid PO number&quot;,&quot;cso_error_required&quot;:&quot;Please enter a valid {0}&quot;,&quot;cso_error_required_Name_length&quot;:&quot;Maximum length allowed is 50 character&quot;,&quot;cso_error_required_businessPhone&quot;:&quot;Please enter a valid Phone Number&quot;,&quot;cso_error_required_categoryType&quot;:&quot;Please select account type&quot;,&quot;cso_error_required_country&quot;:&quot;Please select country&quot;,&quot;cso_error_required_currency&quot;:&quot;Please select currency&quot;,&quot;cso_error_required_customerNumber&quot;:&quot;Please enter search value&quot;,&quot;cso_error_required_email&quot;:&quot;Please enter a valid Email Address&quot;,&quot;cso_error_required_firstName&quot;:&quot;Please enter a valid First Name&quot;,&quot;cso_error_required_language&quot;:&quot;Please select language&quot;,&quot;cso_error_required_lastName&quot;:&quot;Please enter a valid Last Name&quot;,&quot;cso_help_label_customernumber&quot;:&quot;Customer Number example&quot;,&quot;cso_help_label_dpid&quot;:&quot;Dell Purchase ID example&quot;,&quot;cso_help_label_irn&quot;:&quot;Internet Receipt Number example&quot;,&quot;cso_help_label_oan&quot;:&quot;Order Acknowledgement Number example&quot;,&quot;cso_help_label_on&quot;:&quot;Order Number example&quot;,&quot;cso_help_label_pon&quot;:&quot;Purchase Order Number example&quot;,&quot;cso_initialsetup_custmail_template&quot;:&quot;&lt;div&gt;&lt;div style=\&quot;margin: auto; width: 50%; padding: 20px;\&quot;&gt;&lt;table border=\&quot;0\&quot; style=\&quot;border-collapse: collapse;\&quot;&gt;&lt;caption&gt;&lt;/caption&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th scope=\&quot;col\&quot;&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;padding: 0in 5.4pt 0in 5.4pt;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot;&gt;&lt;span style=\&quot;font-size: 10.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt; &lt;u&gt;&lt;/u&gt;&#xA0;&lt;u&gt;&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;table border=\&quot;0\&quot; style=\&quot;border-collapse: collapse;\&quot;&gt;&lt;caption&gt;&lt;/caption&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th scope=\&quot;col\&quot;&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr style=\&quot;height: 28.35pt;\&quot;&gt;&lt;td colspan=\&quot;2\&quot; style=\&quot;width: 97.9pt; padding: 0in 5.4pt; height: 28px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;a href=\&quot;https://www.dell.com\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt; &lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif; color: windowtext; text-decoration: none;\&quot;&gt; &lt;img alt=\&quot;Dell\&quot; border=\&quot;0\&quot; width=\&quot;66\&quot; height=\&quot;38\&quot; style=\&quot;width: .6833in; height: .4in;\&quot; id=\&quot;m_-9096482552935818756Graphic_x0020_1\&quot; src=\&quot;https://ci3.googleusercontent.com/proxy/IHfrVc62EkGyrWMF-f-9NTFNvix9fdbmTy_tOqBdtwXYpDh7AD0J6EbBewmhL4r8CWqvYBFQRb7UPAF9cEpL_YX-9rQlFF08kZdlI7dPNl27QtEEbiJ0hh5ypQCm6C8t4MRrSGPjNZKhYvro1Q=s0-d-e1-ft#https://i.dell.com/sites/csimages/Premier_Imagery/all/delltech_logo_stk_blue_rgb_72dpi.png\&quot; class=\&quot;CToWUd\&quot; /&gt; &lt;/span&gt; &lt;/a&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt; &lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=\&quot;12\&quot; style=\&quot;width: 465.4pt; padding: 0in 5.4pt; height: 84px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif; color: #0076ce;\&quot;&gt;DELL PREMIER SOLUTIONS&lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;span style=\&quot;font-size: 32.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;Customer Details&lt;u&gt;&lt;/u&gt; &lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=\&quot;12\&quot; style=\&quot;width: 465.4pt; padding: 0in 5.4pt; height: 58px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;Below customer has requested to onboard into premier solution &lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;height: 28.35pt;\&quot;&gt;&lt;td colspan=\&quot;12\&quot; style=\&quot;width: 465.4pt; background: #00447c; padding: 0in 5.4pt; height: 28px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;span style=\&quot;font-size: 14.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif; color: white;\&quot;&gt;CUSTOMER DETAILS&lt;/span&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt; &lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;height: 30px;\&quot;&gt;&lt;td colspan=\&quot;7\&quot; style=\&quot;width: 232.9pt; border-top: none; border-right: none; border-bottom: none; border-left: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt; &lt;u&gt;&lt;/u&gt;&#xA0;&lt;u&gt;&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td colspan=\&quot;5\&quot; style=\&quot;width: 232.5pt; border-top: none; border-bottom: none; border-left: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt; &lt;u&gt;&lt;/u&gt;&#xA0;&lt;u&gt;&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;height: 30px;\&quot;&gt;&lt;td colspan=\&quot;7\&quot; style=\&quot;width: 232.9pt; border-top: none; border-left: 1pt solid #a6a6a6; border-bottom: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: left;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;Customer Name&lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td colspan=\&quot;5\&quot; style=\&quot;width: 232.5pt; border-top: none; border-bottom: none; border-left: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: left;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;%cid%&lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;height: 30px;\&quot;&gt;&lt;td colspan=\&quot;7\&quot; style=\&quot;width: 232.9pt; border-top: none; border-left: 1pt solid #a6a6a6; border-bottom: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: left;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;Business Email&lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td colspan=\&quot;5\&quot; style=\&quot;width: 232.5pt; border-top: none; border-bottom: none; border-left: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: left;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;%eid%&lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;height: 30px;\&quot;&gt;&lt;td colspan=\&quot;7\&quot; style=\&quot;width: 232.9pt; border-top: none; border-left: 1pt solid #a6a6a6; border-bottom: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: left;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;Business Phone&lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td colspan=\&quot;5\&quot; style=\&quot;width: 232.5pt; border-top: none; border-bottom: none; border-left: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: left;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;%pid%&lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;height: 30px;\&quot;&gt;&lt;td colspan=\&quot;7\&quot; style=\&quot;width: 232.9pt; border-top: none; border-left: 1pt solid #a6a6a6; border-bottom: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: left;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;Company&lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td colspan=\&quot;5\&quot; style=\&quot;width: 232.5pt; border-top: none; border-bottom: none; border-left: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: left;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;%cpid%&lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;height: 30px;\&quot;&gt;&lt;td colspan=\&quot;7\&quot; style=\&quot;width: 232.9pt; border-top: none; border-left: 1pt solid #a6a6a6; border-bottom: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: left;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;Country&lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td colspan=\&quot;5\&quot; style=\&quot;width: 232.5pt; border-top: none; border-bottom: none; border-left: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: left;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt;%cyid%&lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;height: 20px;\&quot;&gt;&lt;td colspan=\&quot;7\&quot; style=\&quot;width: 232.9pt; border-top: none; border-left: 1pt solid #a6a6a6; border-bottom: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;/p&gt;&lt;/td&gt;&lt;td colspan=\&quot;5\&quot; style=\&quot;width: 232.5pt; border-top: none; border-bottom: none; border-left: none; border-right: 1pt solid #a6a6a6; padding: 0in; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;height: 20px;\&quot;&gt;&lt;td colspan=\&quot;7\&quot; style=\&quot;width: 232.9pt; border-top: none; border-left: 1pt solid #a6a6a6; border-bottom: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;/p&gt;&lt;/td&gt;&lt;td colspan=\&quot;5\&quot; style=\&quot;width: 232.5pt; border-top: none; border-bottom: none; border-left: none; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt; &lt;u&gt;&lt;/u&gt;&#xA0;&lt;u&gt;&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;height: 20px;\&quot;&gt;&lt;td colspan=\&quot;7\&quot; style=\&quot;width: 232.9pt; border-top: none; border-left: 1pt solid #a6a6a6; border-bottom: 1pt solid #a6a6a6; border-right: none; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt; &lt;u&gt;&lt;/u&gt;&#xA0;&lt;u&gt;&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td colspan=\&quot;5\&quot; style=\&quot;width: 232.5pt; border-top: none; border-left: none; border-bottom: 1pt solid #a6a6a6; border-right: 1pt solid #a6a6a6; padding: 0in 5.4pt; height: 20px;\&quot;&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;span style=\&quot;font-size: 12.0pt; font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt; &lt;u&gt;&lt;/u&gt;&#xA0;&lt;u&gt;&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;p class=\&quot;MsoNormal\&quot; style=\&quot;text-align: center;\&quot;&gt;&lt;span style=\&quot;font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;\&quot;&gt; &lt;u&gt;&lt;/u&gt;&lt;u&gt;&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&quot;,&quot;cso_initialsetup_mail_template&quot;:&quot;&lt;meta charset=\&quot;\\&amp;quot;utf-8\\&amp;quot;\&quot; /&gt;&lt;title&gt;&lt;/title&gt;&lt;table&gt;&lt;caption&gt;&lt;/caption&gt;&lt;thead&gt;&lt;tr&gt;&lt;th scope=\&quot;col\&quot;&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=\&quot;font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif; font-size: 16pt; color: #0076ce;\&quot;&gt; Welcome to Dell Premier &lt;/span&gt; &lt;span style=\&quot;float: right;\&quot;&gt; &lt;img src=\&quot;https://i.dell.com/sites/csimages/Premier_Imagery/all/DellImage.png\&quot; style=\&quot;height: 32px; width: 210px;\&quot; /&gt; &lt;/span&gt; &lt;br /&gt;&lt;br /&gt;&lt;span style=\&quot;font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif; font-size: 10pt;\&quot;&gt; Dear %cid%, &lt;br /&gt;&lt;br /&gt;Thank you for your interest in Dell Premier. We are currently in the process of creating your Premier page (Request ID: &lt;strong&gt;%requestID%&lt;/strong&gt;). Once the page is created, you will receive a follow up email with instructions on how to access your Premier page.&lt;br /&gt;&lt;br /&gt;In the meantime, if you require additional assistance, feel free to contact the Premier Support team by filling out &lt;a href=\&quot;%helpdeskLink%\&quot;&gt;this form&lt;/a&gt;. Please include your Request ID number. &lt;br /&gt;&lt;br /&gt;We look forward to working with you! &lt;br /&gt;&lt;br /&gt;Your Dell Premier Team &lt;br /&gt;&lt;br /&gt;&lt;span style=\&quot;font-size: 9pt;\&quot;&gt; You are subscribed as %customeremail% &lt;br /&gt;You are receiving this email to inform you about the use and functionality of your Premier Page. Learn how Dell Technologies processes and secures your data in our &lt;a href=\&quot;%privacyLink%\&quot;&gt;Privacy Statement&lt;/a&gt;. &lt;br /&gt;&lt;br /&gt;Unless Dell has expressly agreed in writing that an active agreement with your organization applies to orders via the Premier Page, all orders placed through a Premier Page are subject to and governed by &lt;a href=\&quot;%termsofSaleLink%\&quot;&gt;Dell&#x27;s Commercial Terms of Sale&lt;/a&gt;. &lt;br /&gt;Dell Technologies Global Headquarters is located at One Dell Way, Round Rock, TX, 78682 &lt;/span&gt; &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&quot;,&quot;cso_main_description&quot;:&quot;Get access to your Premier page when you create an account&quot;,&quot;cso_main_description2&quot;:&quot;Modernize your IT procurement and save money and time when you shop from a personalized site&quot;,&quot;cso_main_description3&quot;:&quot;Modernize your IT procurement and save money and time when you shop&quot;,&quot;cso_main_description4&quot;:&quot;from a personalized site&quot;,&quot;cso_main_discoverInsights&quot;:&quot;Discover Insights&quot;,&quot;cso_main_discoverInsights_description&quot;:&quot;Use robust reports to budget, forecast, lifecycle plan and make informed decisions.&quot;,&quot;cso_main_managnmentSolutions&quot;:&quot;Management Solutions&quot;,&quot;cso_main_managnmentSolutions_description&quot;:&quot;Track orders in real-time, control spending and plan ahead with automation features.&quot;,&quot;cso_main_refersample&quot;:&quot;Refer to the samples below&quot;,&quot;cso_main_simplifyPurchase&quot;:&quot;Simplify Purchasing&quot;,&quot;cso_main_simplifyPurchase_description&quot;:&quot;Cut costs, user errors and delivery times with an optimized buying process.&quot;,&quot;cso_new_customer&quot;:&quot;New to Dell? Contact us&quot;,&quot;cso_premier_failure_label1message&quot;:&quot;Request for Premier page creation got failed&quot;,&quot;cso_premier_failure_label2message&quot;:&quot;Please contact your Internal Sales Representative at {0} in case you have any question. You can also get in touch with your sales representative to onboard you.&quot;,&quot;cso_premier_success_label&quot;:&quot;Request for Premier page creation has been submitted successfully&quot;,&quot;cso_premier_success_label2message&quot;:&quot;Please contact your Internal Sales Representative at {0} in case you have any question. You can also get in touch with your sales representative to customize your account and add standard configurations, as well as to add more payment methods.&quot;,&quot;cso_premier_success_labelmessage&quot;:&quot;You will receive Premier page login information via email shortly.&quot;,&quot;cso_sales_SupportMessage&quot;:&quot;Thanks for the details, we will get in touch with you shortly.&quot;,&quot;cso_sales_companyname_label&quot;:&quot;Company Name&quot;,&quot;cso_sales_request_callbackheader&quot;:&quot;Request a sales callback&quot;,&quot;cso_sales_request_details&quot;:&quot;Please leave a few additional details and we will get back to you.&quot;,&quot;cso_sales_submit&quot;:&quot;Submit&quot;,&quot;cso_store_active_message&quot;:&quot;Please use your Dell Premier credentials to access the page. For assistance, please contact&quot;,&quot;cso_success_description&quot;:null,&quot;cso_success_title&quot;:null,&quot;cso_title&quot;:&quot;Create a Premier Page&quot;,&quot;cso_value_prop_emailsubjectcustomer&quot;:&quot;Thank you for your interest in Dell Premier&quot;,&quot;cso_value_prop_emailsubjectsupport&quot;:&quot;New Customer Details&quot;,&quot;cso_value_prop_existingemailsubjectsupport&quot;:&quot;Existing Customer Details&quot;,&quot;cso_value_prop_iitem1_description&quot;:&quot;Cut costs, user errors and delivery times with an optimized buying process.&quot;,&quot;cso_value_prop_iitem2_description&quot;:&quot;Track orders in real-time, control spending and plan ahead with automation features.&quot;,&quot;cso_value_prop_iitem3_description&quot;:&quot;Use robust reports to budget, forecast, lifecycle plan and make informed decisions.&quot;,&quot;cso_value_prop_item1_title&quot;:&quot;Simplify Purchasing&quot;,&quot;cso_value_prop_item2_title&quot;:&quot;Management Solutions&quot;,&quot;cso_value_prop_item3_title&quot;:&quot;Discover Insights&quot;,&quot;cso_value_prop_storenameconcat&quot;:&quot;Premier Page&quot;,&quot;ContentTypeName&quot;:&quot;MicrocontentString&quot;}</div></article></main></div>
+        
+
+
+    <div id="blazor-error-ui">
+        
+        
+        <a href="#" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script>
+        let baseUri = window.location.href;
+        if (baseUri.includes("?ref")) {
+            baseUri = baseUri.split("?ref")[0];
+        }
+        baseUri = baseUri.split('/storecreation')[0];
+        baseUri = baseUri.includes("success") ? baseUri.split('/success')[0] : baseUri.includes("error") ? baseUri.split('/error')[0] : baseUri;
+        let basePath = window.location.pathname;
+        let basePathList = basePath.includes("../index.html") ? basePath.split('../../../index.html')[4] : basePath.split('../../../index.html')[1];
+        if (baseUri.includes("localhost") || baseUri.includes("premiercso")) {
+            baseUri = baseUri.includes("localhost") ? baseUri.split('/storeCreation')[0] : baseUri;
+            if (basePathList.includes("storecreation") || basePathList.includes("storeCreation")
+                || basePathList.includes("success") || basePathList.includes("error")) {
+                //do nothing
+            } else {
+                baseUri = baseUri.slice(0, -1);
+            }
+        }
+        let c = null; let l = null;
+        const xhttp = new XMLHttpRequest();
+        var csoParam = JSON.stringify({
+            "FirstName": "",
+            "LastName": "",
+            "EmailAddress": ""
+        });
+        xhttp.onload = function () {
+            var response = JSON.parse(this.responseText);
+            c = response.country, l = response.lang
+        }
+        xhttp.open("POST", baseUri + '/api/Sales/get', true);
+        xhttp.setRequestHeader('Content-Type', "application/json");
+        xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
+        xhttp.send(csoParam);
+
+        window.onload = function () {
+            var anchorTag = document.getElementById("clickHereSupport");
+            if (anchorTag !== null) {
+                anchorTag.setAttribute('data-metrics', "{\"btnname\":\"salesCallback\"}");
+            }
+            if (basePathList == "storecreation" || basePathList == "storeCreation") {
+                debugger
+                var dvStoreComponent = document.getElementById("dvStoreComponent");
+                if (dvStoreComponent != null) {
+                    csoLoader('dvStoreComponent', true);
+                }
+                var storeCreationID = document.getElementById("storeCreationID");
+                if (storeCreationID != null) {
+                    csoLoader('storeCreationID', true);
+                }
+                var response = JSON.parse(sessionStorage.getItem("responseDI"));
+                if (response == null) {
+                    onLoadStoreCreation();
+                }
+                else {
+                    sessionStorage.removeItem("responseDI");
+                    if (response.type === "OpenSales") {
+                        csoLoader('storeCreationID', false);
+                        document.getElementById("firstNameID").value = response.result.FirstName;
+                        document.getElementById("lastNameID").value = response.result.LastName;
+                        document.getElementById("emailID").value = response.result.EmailAddress;
+                        document.getElementById("AccID").value = response.result.AccID;
+                        document.getElementById("salesonweremailId").value = response.result.salesonweremailId;
+                        document.getElementById("creationSubmitBtn").disabled = true;
+                        showFindsales('sCallBack');
+                    }
+                    else {
+                        console.log("lwp103:: c" + c + ",l:" + l);
+                        setDellMetrics();
+                        csoLoader('storeCreationID', false);
+                        document.getElementById("labelNameID").innerText = GetLabelName(response.result.LabelName);
+                        document.getElementById("customValueID").innerText = response.result.LabelValue;
+                        document.getElementById("fNameID").value = response.result.FirstName;
+                        document.getElementById("lNameID").value = response.result.LastName;
+                        document.getElementById("domainID").value = response.result.EmailAddress;
+                        document.getElementById("creationSubmitBtn").disabled = false;
+                    }
+                }
+            }
+            if (basePathList == "success") {
+                onLoadSuccess();
+            }
+            if (basePathList == "error") {
+                onLoadError();
+            }
+            if (basePathList == "/" || basePathList == "" || basePathList == "store" || basePathList == undefined) {
+                console.log("lwp121:: c" + c + ",l:" + l);
+                setDellMetrics();
+            }
+        }
+        window.setError = function (showSuccess) {
+            var ddlCategory = document.getElementById('categoryID');
+            var ddlError = document.getElementById('spn_customeromegaID');
+            var errormessage = '';
+            var pagename = basePathList == "" || basePathList == undefined ? 'premieronboarding|store' : "premieronboarding|" + basePathList + "";
+            if (pagename == 'premieronboarding|store' && ddlError != null) {
+                if (showSuccess == "validSuccess") {
+                    var success = "valid";
+                    errormessage = "" + ddlCategory.value + "|" + success + "";
+                }
+                else {
+                    errormessage = "" + ddlCategory.value + "|" + ddlError.innerText + "";
+                }
+                dellmetricsError(errormessage, "", "error");
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        function setDellMetrics(pathS) {
+            console.log("started144");
+            var ddlCategory = document.getElementById('categoryID');
+            var ddlError = document.getElementById('showErrorID');
+            var country = ''; var language = ''; var errormessage = '';
+            var lwpStaticValue = '';
+            var lwpCookie = getCookie('lwp');
+            console.log("lwpCookie150::" + lwpCookie);
+            if (lwpCookie != null) {
+                sessionStorage.setItem("lwpcl", lwpCookie);
+            }
+            else if (c != null || l != null) {
+                console.log("lwpCookie156::" + c + ",l" + l);
+                lwpStaticValue = "c=" + c + "&l=" + l + "";
+            }
+            else {
+                var lp = sessionStorage.getItem("lwpcl");
+                console.log("lp160:" + lp);
+                var pathValue = basePath.includes("../index.html") ? basePath.split('../../../index.html')[3] : null;
+                console.log("lp163:" + pathValue);
+                lwpStaticValue = baseUri.includes("localhost") ? "c=uk&l=en" : lp != null ? lp : "c=" + pathValue.split('-')[1] + "&l=" + pathValue.split('-')[0] + "";
+            }
+            var cookieSplit = lwpCookie != null ? lwpCookie.split('&') : lwpStaticValue.split('&');
+            for (let values of cookieSplit) {
+                if (values.split('=')[0] == 'c')
+                    country = values.split('=')[1];
+                else if (values.split('=')[0] == 'l')
+                    language = values.split('=')[1];
+            }
+            var pagename = basePathList == "" || basePathList == undefined ? 'premieronboarding|store' : "premieronboarding|" + basePathList + "";
+            if (pathS != "" && pathS != undefined) {
+                pagename = 'premieronboarding|' + pathS
+            }
+            if (pagename == 'premieronboarding|store' && ddlError != null) {
+                errormessage = "" + ddlCategory.value + "|" + ddlError.innerText + "";
+            }
+            pagename = country + "|" + language + "|corp|" + pagename;
+            var scriptVar = document.createElement('script');
+            var str = "Dell = window.Dell || {};Dell.Metrics = Dell.Metrics || {};Dell.Metrics.sc = Dell.Metrics.sc || {}; Dell.Metrics.sc.country = \"" + country + "\";Dell.Metrics.sc.language = \"" + language + "\";Dell.Metrics.sc.cms = 'premieronboarding';Dell.Metrics.sc.segment = 'corp';Dell.Metrics.sc.customerset=''; Dell.Metrics.sc.errormessage= \"" + errormessage + "\"; Dell.Metrics.sc.pagename = \"" + pagename + "\"; Dell.Metrics.sc.applicationname = 'Premier:Self Onboarding';";
+            str = str.replace(/'/g, "\'");
+            scriptVar.setAttribute("type", "text/javascript");
+            scriptVar.innerText = str;
+            document.head.appendChild(scriptVar);
+
+            var script = document.createElement("script");  // create a script DOM node
+            script.src = baseUri.includes("test-stage") || baseUri.includes("premiercso") || baseUri.includes("localhost") ? "https://nexus.dell.com/dell/dev/Bootstrap.js" : "https://nexus.dell.com/dell/Bootstrap.js";  // set its src to the provided URL
+            script.crossOrigin = "anonymous";
+            document.head.appendChild(script);
+        }
+
+        function getCookie(name) {
+            var dc = document.cookie;
+            var prefix = name + "=";
+            var begin = dc.indexOf("; " + prefix);
+            if (begin == -1) {
+                begin = dc.indexOf(prefix);
+                if (begin != 0) return null;
+            } else {
+                begin += 2;
+            }
+            var end = document.cookie.indexOf(";", begin);
+            if (end == -1) {
+                end = dc.length;
+            }
+            return unescape(dc.substring(begin + prefix.length, end));
+        }
+        function showHelpCustomer() {
+            document.getElementById("findCustomerNumber").style.display = "block";
+        }
+        function CloseFindCustomerNumberFlyout() {
+            document.getElementById("findCustomerNumber").style.display = "none";
+        }
+        function showFindsales(pathS) {
+            var pname = 'salesCallback';
+            if (pathS != "" && pathS != undefined) {
+                pname = 'store|salesCallback'
+            }
+            setDellMetrics(pname);
+            document.getElementById("findsales").style.display = "block";
+        }
+        async function closeSalesComponent() {
+            csoLoader('findsales', true);
+            await sleep(1000);
+            sessionStorage.removeItem("cultureLwp");
+            document.getElementById("displayMessID").innerText = "";
+            window.location = baseUri;
+            await sleep(2000);
+            csoLoader('findsales', false);
+        }
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        function csoLoader(id, action) {
+            var div = document.getElementById(id);
+            if (div) {
+                if (action) {
+                    var cso_loader = '<div id="cso_loader" class="spinner"></div>';
+                    div.insertAdjacentHTML('beforeend', cso_loader);
+                } else {
+                    var loader = document.getElementById('cso_loader');
+                    if (loader)
+                        loader.parentNode.removeChild(loader);
+                }
+            }
+        }
+        function getCmsContent(elementId) {
+            let ele = document.getElementById(elementId);
+            return ele ? JSON.parse(ele.innerText) : {};
+        }
+
+        function validateSales() {
+            var result = true;
+            cmsContent = getCmsContent("dvCmsContent");
+            result = validateFeild("compID", cmsContent.cso_error_required.replace("{0}", cmsContent.cso_sales_companyname_label));
+            result = validateFeild("phoneID", cmsContent.cso_error_required_businessPhone);
+            result = validateFeild("emailID", cmsContent.cso_error_required_email);
+            result = validateFeild("lastNameID", cmsContent.cso_error_required_lastName);
+            result = validateFeild("firstNameID", cmsContent.cso_error_required_firstName);
+            return result;
+        }
+
+        function validateStore() {
+            var result = true;
+            cmsContent = getCmsContent("dvCmsContent");
+            result = validateFeild("countryIDD", cmsContent.cso_error_required.replace("{0}", cmsContent.cso_details_country_label));
+            result = validateFeild("phoneIDD", cmsContent.cso_error_required_businessPhone);
+            result = validateFeild("language", cmsContent.cso_error_required.replace("{0}", cmsContent.cso_details_language_label));
+            result = validateFeild("currency", cmsContent.cso_error_required.replace("{0}", cmsContent.cso_details_currency_label));
+            return result;
+        }
+
+        function validateFeild(feild, message) {
+            cmsContent = getCmsContent("dvCmsContent");
+            switch (feild) {
+                case 'compID':
+                    message = cmsContent.cso_error_required.replace("{0}", cmsContent.cso_sales_companyname_label);
+                    break;
+                case 'phoneID':
+                    message = cmsContent.cso_error_required_businessPhone;
+                    break;
+                case 'emailID':
+                    message = cmsContent.cso_error_required_email;
+                    break;
+                case 'lastNameID':
+                    message = cmsContent.cso_error_required_lastName;
+                    break;
+                case 'firstNameID':
+                    message = cmsContent.cso_error_required_firstName;
+                    break;
+                case 'customeromegaID':
+                    message = cmsContent.cso_error_required_customerNumber;
+                    break;
+                case 'phoneIDD':
+                    message = cmsContent.cso_error_required_businessPhone;
+                    break;
+                case 'countryIDD':
+                    message = cmsContent.cso_error_required.replace("{0}", cmsContent.cso_details_country_label);
+                    break;
+                case 'language':
+                    message = cmsContent.cso_error_required.replace("{0}", cmsContent.cso_details_language_label);
+                    break;
+                case 'currency':
+                    message = cmsContent.cso_error_required.replace("{0}", cmsContent.cso_details_currency_label);
+                    break;
+            }
+            var Val = document.getElementById(feild).value;
+            var Regex = /\S+/;
+            var regExp = /^[a-zA-Z ]*$/;
+            if (feild == 'compID' || feild == 'lastNameID' || feild == 'firstNameID') {
+                if (!Regex.test(Val) || !regExp.test(Val)) {
+                    document.getElementById("spn_" + feild).innerText = message;
+                    return false;
+                }
+                else {
+                    document.getElementById("spn_" + feild).innerHTML = "";
+                    return true;
+                }
+            }
+            else {
+                if (!Regex.test(Val)) {
+                    document.getElementById("spn_" + feild).innerText = message;
+                    return false;
+                }
+                else {
+                    document.getElementById("spn_" + feild).innerHTML = "";
+                    return true;
+                }
+            }
+        }
+
+        function continueClick() {
+            if (validateFeild('customeromegaID', null) != false) {
+                document.getElementById("spn_customeromegaID").style.color = "red";
+                document.getElementById("isrMailID").innerText = null;
+                document.getElementById("isrID").style.display = "none";
+                csoLoader('dvStoreComponent', true);
+                var csoParam = JSON.stringify({
+                    "CategoryType": document.getElementById("categoryID").value,
+                    "CustomerOmegaSearchValue": document.getElementById("customeromegaID").value.trim(),
+                    "RegionCode": document.getElementById("regionCodeID").value,
+                    "BusinessUnitId": document.getElementById("buID").value,
+                    "Country_Code": document.getElementById("countryCookieID").value,
+                    "LanguageCode": document.getElementById("languageCookieID").value,
+                    "BaseUri": baseUri
+                });
+
+                let url = baseUri + '/api/Store/StoreComponent';
+                let http = new XMLHttpRequest();
+                http.onreadystatechange = function () {
+                    if (this.readyState == 4) {
+                        var response = JSON.parse(this.responseText);
+                        debugger
+                        if (response) {
+                            if (response.type === "showFindsales") {
+                                if (response.info.statusCode == 200) {
+                                    document.getElementById("salesonweremailId").value = response.result.SalesOwnerEmail;
+                                    document.getElementById("AccID").value = response.result.AffinityAccID;
+                                }
+                                showFindsales();
+                            }
+                            if (response.type === "StoreAlreadyExists") {
+                                document.getElementById("spn_customeromegaID").innerText = response.message;
+                                document.getElementById("spn_customeromegaID").style.color = "green";
+                                document.getElementById("isrMailID").innerText = response.result;
+                                document.getElementById("isrID").style.display = "flex";
+                            }
+                            if (response.type === "RedirectToDI") {
+                                document.getElementById("storeSubmitBtn").disabled = true;
+                                sessionStorage.setItem("cultureLwp", response.result.SessionStorage);
+                                window.location = response.result.DIRedirect.replace('{0}', response.result.IdentityEndpoint);
+                            }
+                            if (response.type === "NotFound" || response.type === "Goss" || response.type === "BadRequest") {
+                                document.getElementById("spn_customeromegaID").innerText = response.message;
+                            }
+                            if (response.type === "NotFound" || response.type === "Goss" || response.type === "BadRequest" || response.type === "StoreAlreadyExists") {
+                                setDellMetrics();
+                                setError();
+                            }
+                            csoLoader('dvStoreComponent', false);
+                        }
+                    }
+                };
+                http.open("POST", url, true);
+                http.setRequestHeader('Content-Type', "application/json");
+                http.setRequestHeader("Access-Control-Allow-Origin", "*");
+                http.send(csoParam);
+            }
+            else {
+                setError();
+            }
+        }
+        function salesSubmit() {
+            if (validateSales() != false) {
+                if (validateFeild('firstNameID', null) == false || validateFeild('lastNameID', null) == false || validateFeild('compID', null) == false || validateFeild('phoneID', null) == false || validateFeild('emailID', null) == false) {
+                    //not requried
+                }
+                else {
+                    var addDataMetrics = document.getElementById("salesSubmitBtn");
+                    if (addDataMetrics !== null) {
+                        addDataMetrics.setAttribute('data-metrics', "{\"btnname\":\"salesSubmit\"}");
+                    }
+                    csoLoader('findsales', true);
+                    var csoParam = JSON.stringify({
+                        "FirstName": document.getElementById("firstNameID").value == "" ? null : document.getElementById("firstNameID").value,
+                        "LastName": document.getElementById("lastNameID").value == "" ? null : document.getElementById("lastNameID").value,
+                        "EmailAddress": document.getElementById("emailID").value == "" ? null : document.getElementById("emailID").value,
+                        "Company": document.getElementById("compID").value == "" ? null : document.getElementById("compID").value,
+                        "BusinessPhone": document.getElementById("phoneID").value == "" ? null : document.getElementById("phoneID").value,
+                        "CountryCode": document.getElementById("country").value,
+                        "SalesOwnerEmail": document.getElementById("salesonweremailId").value == "" ? null : document.getElementById("salesonweremailId").value,
+                        "AffinityAccID": document.getElementById("AccID").value != "" ? document.getElementById("AccID").value : "0"
+                    });
+                    let url = baseUri + '/api/Sales/SaleComponent';
+                    let http = new XMLHttpRequest();
+                    http.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            var response = JSON.parse(this.responseText);
+                            debugger
+                            if (response) {
+                                if (response.info.statusCode == 200) {
+                                    ClearValues();
+                                    document.getElementById("displayMessID").innerText = response.info.statusCode == 200 ? response.message : null;
+                                    document.getElementById("displayMessID").style.display = response.info.statusCode == 200 ? "block" : "none";
+                                    setDellMetrics('salesSubmit');
+                                }
+                                else {
+                                    csoLoader('findsales', false);
+                                    document.getElementById("spn_" + response.type).innerText = response.message;
+                                    return false;
+                                }
+                            }
+                            csoLoader('findsales', false);
+                        }
+                    };
+                    http.open("POST", url, true);
+                    http.setRequestHeader('Content-Type', "application/json");
+                    http.setRequestHeader("Access-Control-Allow-Origin", "*");
+                    http.send(csoParam);
+                }
+            }
+        }
+
+        function onBlurValidEmailPhone(method, id) {
+            if (validateFeild(id, null) == true) {
+                csoLoader('findsales', true);
+                var csoParam = JSON.stringify({
+                    "EmailAddress": document.getElementById("emailID").value == "" ? null : document.getElementById("emailID").value,
+                    "BusinessPhone": document.getElementById("phoneID").value == "" ? null : document.getElementById("phoneID").value,
+                    "CountryCode": document.getElementById("country").value,
+                    "AffinityAccID": document.getElementById("AccID").value != "" ? document.getElementById("AccID").value : "0"
+                });
+                let url = baseUri + '/api/Sales/' + method;
+                let http = new XMLHttpRequest();
+                http.onreadystatechange = function () {
+                    if (this.readyState == 4) {
+                        csoLoader('findsales', false);
+                        debugger
+                        var response = JSON.parse(this.responseText);
+                        if (response) {
+                            document.getElementById("spn_" + id).innerText = response.result === false ? response.message : null;
+                            return response.result;
+                        }
+                    }
+                };
+                http.open("POST", url, true);
+                http.setRequestHeader('Content-Type', "application/json");
+                http.setRequestHeader("Access-Control-Allow-Origin", "*");
+                http.send(csoParam);
+            }
+        }
+
+        function ClearValues() {
+            document.getElementById("firstNameID").value = null;
+            document.getElementById("lastNameID").value = null;
+            document.getElementById("emailID").value = null;
+            document.getElementById("phoneID").value = null;
+            document.getElementById("compID").value = null;
+            document.getElementById("salesonweremailId").value = null;
+            document.getElementById("AccID").value = null;
+        }
+
+        function clearCategoryText() {
+            document.getElementById("customeromegaID").value = "";
+            document.getElementById("spn_customeromegaID").innerText = "";
+            clearAutoFill();
+        }
+        function clearAutoFill() {
+            document.getElementById("isrMailID").value = "";
+            document.getElementById("isrID").style.display = "none";
+        }
+
+        ///*****Store Creation****///
+        function submitStoreCreation() {
+            if (validateStore() != false) {
+                if (validateFeild('phoneIDD', null) == false || validateFeild('language', null) == false) {
+                    //not requried
+                }
+                else {
+                    csoLoader('storeCreationID', true);
+                    let sessionkey = sessionStorage.getItem("cultureLwp");
+                    var csoParam = JSON.stringify({
+                        "FirstName": document.getElementById("fNameID").value,
+                        "LastName": document.getElementById("lNameID").value,
+                        "Email": document.getElementById("domainID").value,
+                        "Country": document.getElementById("countryIDD").value,
+                        "language": document.getElementById("language").value,
+                        "Currency": document.getElementById("currency").value,
+                        "Phone": document.getElementById("phoneIDD").value,
+                        "Buid": document.getElementById("buIDD").value,
+                        "RegionCode": document.getElementById("regionCodeID").value,
+                        "Chk": document.getElementById('chkid').checked,
+                        "SessionValue": sessionkey
+                    });
+                    let url = baseUri + '/api/Store/StoreCreation';
+                    let http = new XMLHttpRequest();
+                    http.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            var response = JSON.parse(this.responseText);
+                            debugger
+                            if (response) {
+                                sessionStorage.setItem("Dmail", response.result);
+                                if (response.info.statusCode == 400) {
+                                    window.location = baseUri + "/error";
+                                }
+                                else {
+                                    window.location = baseUri + "/success";
+                                }
+                                sessionStorage.removeItem("cultureLwp");
+                            }
+                            setDellMetrics();
+                            csoLoader('storeCreationID', false);
+                        }
+                    };
+                    http.open("POST", url, true);
+                    http.setRequestHeader('Content-Type', "application/json");
+                    http.setRequestHeader("Access-Control-Allow-Origin", "*");
+                    http.send(csoParam);
+                }
+            }
+        }
+
+        function oncancelRedirect() {
+            sessionStorage.removeItem("cultureLwp");
+            window.location = baseUri;
+        }
+
+        function GetLabelName(val) {
+            cmsContent = getCmsContent("dvCmsContent");
+            switch (val) {
+                case 'Customer Number':
+                    val = cmsContent.cso_account_type_customer_number;
+                    break;
+                case 'Dell Purchase ID':
+                    val = cmsContent.cso_account_type_dell_purchase_id;
+                    break;
+                case 'Order Number':
+                    val = cmsContent.cso_account_type_order_number;
+                    break;
+                case 'Internet Receipt Number':
+                    val = cmsContent.cso_account_type_internal_relationship_number;
+                    break;
+                case 'Omega Customer Number':
+                    val = cmsContent.cso_account_type_omegaCustomer_number;
+                    break;
+            }
+            return val;
+        }
+
+        function onLoadStoreCreation() {
+            var dvStoreComponent = document.getElementById("dvStoreComponent");
+            if (dvStoreComponent != null) {
+                csoLoader('dvStoreComponent', true);
+            }
+            else {
+                document.getElementById("creationSubmitBtn").disabled = true;
+                csoLoader('storeCreationID', true);
+            }
+            const params = new URLSearchParams(window.location.search)
+            let code = params.get('code');
+            let sessionkey = sessionStorage.getItem("cultureLwp");
+            var csoParam = JSON.stringify({
+                "Code": code,
+                "SessionValue": sessionkey,
+                "BaseUri": baseUri
+            });
+            let url = baseUri + '/api/Store/GetDIResponse';
+            let http = new XMLHttpRequest();
+            http.onreadystatechange = function () {
+                if (this.readyState == 4) {
+                    var response = JSON.parse(this.responseText);
+                    if (response) {
+                        debugger
+                        if (response.info.statusCode == 400 || response.info.statusCode == 500) {
+                            window.location = baseUri;
+                        }
+                        else {
+                            var jsonObject = JSON.stringify(response);
+                            sessionStorage.setItem("responseDI", jsonObject);
+                            window.location = baseUri + "/storecreation";
+                        }
+                    }
+                    csoLoader('storeCreationID', false);
+                }
+            };
+            http.open("POST", url, true);
+            http.setRequestHeader('Content-Type', "application/json");
+            http.setRequestHeader("Access-Control-Allow-Origin", "*");
+            http.send(csoParam);
+        }
+
+        function onLoadSuccess() {
+            var sessionkey = sessionStorage.getItem("Dmail");
+            if (sessionkey != null) {
+                var message = document.getElementById("successStoreID").innerText;
+                document.getElementById("successStoreID").innerText = "";
+                document.getElementById("successStoreID").innerText = message.replace("{0}", sessionkey);
+                sessionStorage.removeItem("Dmail");
+                setDellMetrics();
+            }
+            else {
+                oncancelRedirect();
+            }
+        }
+
+        function onLoadError() {
+            var sessionkey = sessionStorage.getItem("Dmail");
+            if (sessionkey != null) {
+                var message = document.getElementById("errorStoreID").innerText;
+                document.getElementById("errorStoreID").innerText = "";
+                document.getElementById("errorStoreID").innerText = message.replace("{0}", sessionkey);
+                sessionStorage.removeItem("Dmail");
+                setDellMetrics();
+            }
+            else {
+                oncancelRedirect();
+            }
+        }
+    </script>
+<script type="text/javascript"  src="../../../cJWnC8ttwN6q/VEq1tD/NOr_M9/iGiEbkQJ1O/MHNfInI/fgYCHgx/XMAIC"></script></body>
+
+<!-- Mirrored from www.dell.com/premier/get-started/en-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Dec 2022 18:21:26 GMT -->
+</html>

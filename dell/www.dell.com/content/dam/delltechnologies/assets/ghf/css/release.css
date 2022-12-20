@@ -1,0 +1,45 @@
+/*fix for the quote icon in the quote component https://www-wip.dell.com/en-us/dt/storage/storage-software.htm*/
+.quote-view .wrapper-text-vertical .rte p:last-of-type:after{
+    font-family: "delltech-icons" !important;
+    font-size: 14px !important;
+    padding-right:50px;
+    top:-10px;
+    display:inline-block;
+    position:relative;
+    transform: rotate(180deg);
+}
+/*Carousel Fixes*/
+.widget-carousel-v3 .arrows li {
+	padding-left: 0 !important;
+	margin-top: -35px;
+	padding-right: 0 !important;
+}
+  
+.widget-carousel-v3 .arrow-prev:after,
+.widget-carousel-v3 .arrow-next:after {
+	font-family: "delltech-icons" !important;
+	content: "\e901";
+	font-size: 36px;
+}
+  
+@media screen and (min-width: 768px) {
+	.widget-carousel-v3 {
+	  padding-left: 50px;
+	  padding-right: 50px;
+	}
+}
+  
+/* Promo images fixes when fit to height */
+.promo-component .image-above-height.height-100 .wrap-image img {
+   width: 100%;
+}
+.promo-component .image-above-height.height-100 .wrap-image img[data-object-fit=cover],
+.promo-component .image-onside-height.height-100 .wrap-image img[data-object-fit=cover]{
+   height: 100%;
+}
+.wrapper-image img.js-lazyload.partial-img, .wrapper-image img.js-lazyload.img-icon, .wrapper-image img.js-lazyload.logo {
+   object-fit: unset;
+}
+   
+/*fix for UM footer in DTW by UM team */
+body.no-um [component=footer] .mh-hide {display: none!important;}body.no-um [component=footer] .mh-show {display: block!important;}body.no-um [component=footer] .mh-show-flex {display: flex!important;}body.no-um [component=footer] .no-after::after {display: none!important;}body.no-um [component=footer] .mh-borderNone {border-width: 0!important;}body.no-um [component=footer] .mh-overFlow-yHidden {overflow-y: hidden!important;}body.no-um [component=footer] .mh-no-text-decoration {text-decoration: none;}body.no-um [component=footer] .prevent-click {pointer-events: none;}body.no-um #unified-masthead .mh-flyout-wrapper>.no-chevron>span::after {content: none;}body.no-um #mh-unified-footer [component=unified-country-selector] .mh-flyout-link>span:before {margin-right: 6px;padding: 0;}body.no-um .unifiedGlobe .mh-flyout-link>span:before {background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 .942a7.058 7.058 0 1 0 0 14.116A7.058 7.058 0 0 0 8 .942ZM1.908 8.47h2.304c.028.801.122 1.564.278 2.263H2.537a6.053 6.053 0 0 1-.629-2.263Zm6.563-4.145V2.03c.715.263 1.348 1.11 1.782 2.295H8.471Zm2.069.942c.17.692.278 1.458.309 2.262H8.471V5.267h2.068ZM7.53 2.03v2.295H5.748C6.183 3.14 6.816 2.293 7.53 2.03Zm0 3.237v2.262H5.152c.031-.804.14-1.57.31-2.262H7.53ZM4.212 7.529H1.908a6.06 6.06 0 0 1 .629-2.262H4.49c-.157.7-.251 1.461-.279 2.262Zm.94.941H7.53v2.263H5.462a11.35 11.35 0 0 1-.31-2.263Zm2.378 3.204v2.297c-.715-.264-1.347-1.112-1.782-2.297H7.53Zm.94 2.297v-2.297h1.783c-.435 1.186-1.067 2.033-1.782 2.297Zm0-3.238V8.47h2.379c-.031.805-.14 1.57-.31 2.263H8.472ZM11.79 8.47h2.304a6.06 6.06 0 0 1-.629 2.263h-1.953c.157-.7.25-1.462.278-2.263Zm0-.94a12.302 12.302 0 0 0-.278-2.263h1.953c.347.69.566 1.454.628 2.262h-2.303Zm1.089-3.205h-1.63c-.26-.79-.602-1.473-1.008-2.011a6.136 6.136 0 0 1 2.638 2.011ZM5.76 2.315c-.405.538-.747 1.22-1.007 2.01H3.122a6.14 6.14 0 0 1 2.638-2.01Zm-2.638 9.36h1.63c.26.79.602 1.472 1.007 2.01a6.136 6.136 0 0 1-2.637-2.01Zm7.119 2.01c.405-.538.748-1.22 1.007-2.011h1.63a6.131 6.131 0 0 1-2.637 2.011Z' fill='%23636363'/%3E%3C/svg%3E");background-position: 50%;background-repeat: no-repeat;background-size: 16px 16px;content: "";display: inline-block;height: 16px;margin-right: 4px;padding: 4px;width: 16px;}body.no-um #mh-unified-footer .mh-flyout-link>span:after {margin-left: 6px;}body.no-um .mh-flyout-link>span:after, .mh-shipto-cheveron, .mh-top-menu.child-nav>.mh-top-nav-button :after, .view-icon {background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' fill='%230E0E0E'%3E%3Cpath d='M30.485 7.244 16 21.729 1.515 7.244 0 8.757l16 16 16-16z'/%3E%3C/svg%3E");background-position: 50%;background-repeat: no-repeat;background-size: 10px 8px;box-sizing: border-box;padding: 6px;}body.no-um [component=footer] .mh-load-spinner {position: absolute;justify-content: center;align-items: center;background-color: rgba(0,0,0,.2);z-index: 100000;top: 0;left: 0;right: 0;bottom: 0;}body.no-um [component=footer] .mh-load-spinner svg{width: 21px;height: 21px;}@media only screen and (min-width:0) {body.no-um .mh-show-Mobile {display: block!important;}body.no-um .mh-onlyMobileTab {display: block!important;}body.no-um .mh-show-DeskTop-Tab {display: none!important;}body.no-um .mh-bodyOverFlow-Hidden {position: fixed;overflow: hidden!important;}body.no-um .mh-bodyOverFlow-Hidden .site-canvas {transform: inherit;transition: none;}body.no-um footer [component=unified-country-selector]>.mh-flyout-wrapper a.mh-flyout-link>span:after {display: none;}}@media only screen and (min-width:768px) {body.no-um .mh-show-Mobile {display: none!important;}body.no-um .mh-show-DeskTop-Tab {display: block!important;}body.no-um .mh-bodyOverFlow-Hidden {overflow: hidden!important;}body.no-um footer [component=unified-country-selector]>.mh-flyout-wrapper a.mh-flyout-link>span:after {content: "";display: block;height: 12px;margin-left: 6px;top: 40%;transition: transform .2s linear;width: 12px;}body.no-um footer [component=unified-country-selector] .mh-flyout-link[aria-expanded=true]>span:after {transform: rotate(-180deg);}}@media only screen and (min-width:1024px) {body.no-um .mh-onlyMobileTab {display: none!important;}}

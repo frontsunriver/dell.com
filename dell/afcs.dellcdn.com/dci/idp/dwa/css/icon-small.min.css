@@ -1,0 +1,28 @@
+﻿@font-face {
+  font-family: 'icon-small';
+  src: url('https://afcs.dellcdn.com/dci/idp/dwa/fonts/icon-small.eot');
+  src: url('https://afcs.dellcdn.com/dci/idp/dwa/fonts/icon-small.eot?#iefix') format('embedded-opentype'), url('https://afcs.dellcdn.com/dci/idp/dwa/fonts/icon-small.woff') format('woff'), url('https://afcs.dellcdn.com/dci/idp/dwa/fonts/icon-small.ttf') format('truetype'), url('https://afcs.dellcdn.com/dci/idp/dwa/fonts/icon-small.svg#icon-small') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-small-alertinfo
+{
+  font-family: 'icon-small';
+  speak: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.text-blue {
+  color: #007db8 !important;
+}
+.icon-small-alertinfo:before {
+  content: "\e604";
+ 
+}

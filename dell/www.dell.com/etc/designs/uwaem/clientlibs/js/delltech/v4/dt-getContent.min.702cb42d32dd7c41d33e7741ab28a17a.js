@@ -1,0 +1,106 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t():"function"==typeof define&&define.amd?define(t):t()}(0,function(){"use strict";function e(e){var t=this.constructor;return this.then(function(n){return t.resolve(e()).then(function(){return n})},function(n){return t.resolve(e()).then(function(){return t.reject(n)})})}function t(e){return new this(function(t,n){function o(e,n){if(n&&("object"==typeof n||"function"==typeof n)){var f=n.then;if("function"==typeof f)return void f.call(n,function(t){o(e,t)},function(n){r[e]={status:"rejected",reason:n},0==--i&&t(r)})}r[e]={status:"fulfilled",value:n},0==--i&&t(r)}if(!e||"undefined"==typeof e.length)return n(new TypeError(typeof e+" "+e+" is not iterable(cannot read property Symbol(Symbol.iterator))"));var r=Array.prototype.slice.call(e);if(0===r.length)return t([]);for(var i=r.length,f=0;r.length>f;f++)o(f,r[f])})}function n(e){return!(!e||"undefined"==typeof e.length)}function o(){}function r(e){if(!(this instanceof r))throw new TypeError("Promises must be constructed via new");if("function"!=typeof e)throw new TypeError("not a function");this._state=0,this._handled=!1,this._value=undefined,this._deferreds=[],l(e,this)}function i(e,t){for(;3===e._state;)e=e._value;0!==e._state?(e._handled=!0,r._immediateFn(function(){var n=1===e._state?t.onFulfilled:t.onRejected;if(null!==n){var o;try{o=n(e._value)}catch(r){return void u(t.promise,r)}f(t.promise,o)}else(1===e._state?f:u)(t.promise,e._value)})):e._deferreds.push(t)}function f(e,t){try{if(t===e)throw new TypeError("A promise cannot be resolved with itself.");if(t&&("object"==typeof t||"function"==typeof t)){var n=t.then;if(t instanceof r)return e._state=3,e._value=t,void c(e);if("function"==typeof n)return void l(function(e,t){return function(){e.apply(t,arguments)}}(n,t),e)}e._state=1,e._value=t,c(e)}catch(o){u(e,o)}}function u(e,t){e._state=2,e._value=t,c(e)}function c(e){2===e._state&&0===e._deferreds.length&&r._immediateFn(function(){e._handled||r._unhandledRejectionFn(e._value)});for(var t=0,n=e._deferreds.length;n>t;t++)i(e,e._deferreds[t]);e._deferreds=null}function l(e,t){var n=!1;try{e(function(e){n||(n=!0,f(t,e))},function(e){n||(n=!0,u(t,e))})}catch(o){if(n)return;n=!0,u(t,o)}}var a=setTimeout;r.prototype["catch"]=function(e){return this.then(null,e)},r.prototype.then=function(e,t){var n=new this.constructor(o);return i(this,new function(e,t,n){this.onFulfilled="function"==typeof e?e:null,this.onRejected="function"==typeof t?t:null,this.promise=n}(e,t,n)),n},r.prototype["finally"]=e,r.all=function(e){return new r(function(t,o){function r(e,n){try{if(n&&("object"==typeof n||"function"==typeof n)){var u=n.then;if("function"==typeof u)return void u.call(n,function(t){r(e,t)},o)}i[e]=n,0==--f&&t(i)}catch(c){o(c)}}if(!n(e))return o(new TypeError("Promise.all accepts an array"));var i=Array.prototype.slice.call(e);if(0===i.length)return t([]);for(var f=i.length,u=0;i.length>u;u++)r(u,i[u])})},r.allSettled=t,r.resolve=function(e){return e&&"object"==typeof e&&e.constructor===r?e:new r(function(t){t(e)})},r.reject=function(e){return new r(function(t,n){n(e)})},r.race=function(e){return new r(function(t,o){if(!n(e))return o(new TypeError("Promise.race accepts an array"));for(var i=0,f=e.length;f>i;i++)r.resolve(e[i]).then(t,o)})},r._immediateFn="function"==typeof setImmediate&&function(e){setImmediate(e)}||function(e){a(e,0)},r._unhandledRejectionFn=function(e){void 0!==console&&console&&console.warn("Possible Unhandled Promise Rejection:",e)};var s=function(){if("undefined"!=typeof self)return self;if("undefined"!=typeof window)return window;if("undefined"!=typeof global)return global;throw Error("unable to locate global object")}();"function"!=typeof s.Promise?s.Promise=r:s.Promise.prototype["finally"]?s.Promise.allSettled||(s.Promise.allSettled=t):s.Promise.prototype["finally"]=e});
+/* _getContent.js */
+
+window.UW = window.UW || {};
+UW.content = (function () {
+    return {
+        _isLocalStorageSupported: function () {
+            var localStorage, localStorageSupported = true;
+            try {
+                localStorage = window.localStorage;
+                // Firefox & IE 11 doesn't throw an exception when localStorage is disabled, it returns null
+                if (localStorage == null) {
+                    localStorageSupported = false;
+                }
+            } catch (e) {
+                localStorageSupported = false;
+                console.log("localStorage is disabled or not supported in the browser", e);
+            }
+            return localStorageSupported;
+        },
+        _removeAllLocalStorageItems: function () {
+            var itemArr = [], itemArrLen, localStorageLen = localStorage.length;
+            for (var i = 0; i < localStorageLen; i++) {
+                if (localStorage.key(i).substring(0, 4) == 'dt--') {
+                    itemArr.push(localStorage.key(i));
+                }
+            }
+            itemArrLen = itemArr.length;
+            for (var i = 0; i < itemArrLen; i++) {
+                localStorage.removeItem(itemArr[i]);
+            }
+        },
+        //to remove any particular localStorage item through release.js
+        _removeLocalStorageItem: function (storageKey) {
+            if (this._isLocalStorageSupported()) {
+                localStorage.removeItem(storageKey);
+            }
+        },
+        _readFromLocalStorage: function (storageKey, modifiedDate) {
+            if (this._isLocalStorageSupported()) {
+                const contentItem = localStorage.getItem(storageKey);
+                if (!contentItem) {
+                    return null;
+                }
+                const contentObject = JSON.parse(contentItem);
+                contentObject.isContentModified = false;
+                if (modifiedDate > contentObject.modifiedDate) {
+                    localStorage.removeItem(storageKey);
+                    contentObject.isContentModified = true;
+                }
+                return contentObject;
+            } else {
+                return null;
+            }
+        },
+        _saveInLocalStorage: function (content, storageKey, modifiedDate) {
+            if (this._isLocalStorageSupported()) {
+                const item = {
+                    value: content,
+                    modifiedDate: modifiedDate
+                }
+                try {
+                    localStorage.setItem(storageKey, JSON.stringify(item));
+                } catch (e) {
+                    if (e.code == 22) {
+                        console.log("localStorage is full");
+                        this._removeAllLocalStorageItems();
+                    }
+                }
+            }
+        },
+        workerFiles: { 'get-content-worker': '/etc/designs/uwaem/assets/js/delltech/v5/uw/_web-workers/get-content-worker.js' },
+        runWorker: function (args) {
+            var promise = new Promise(function(resolve, reject) {
+                var worker;
+                //Construct the Web Worker
+                worker = UW.content.createWorkerInstance(args.workerName);
+                worker.onmessage = function(event) {
+                    //If the Worker reports success, resolve the Deferred
+                    resolve(event.data);
+                    UW.content.terminateWorkerInstance(worker);
+                };
+                worker.onerror = function(event) {
+                    //If the Worker reports an error, reject the Deferred
+                    reject(event);
+                    UW.content.terminateWorkerInstance(worker);
+                };
+                worker.postMessage(args); //Start the worker with supplied args
+            });
+            return promise;
+        },
+        createWorkerInstance: function (workerName) {
+            let worker;
+            if (typeof (Worker) !== undefined) {
+                if (typeof (worker) == "undefined") {
+                    worker = new Worker(UW.content.workerFiles[workerName]);
+                    return worker;
+                }
+            }
+        },
+        terminateWorkerInstance: function (worker) {
+            worker.terminate();
+        }
+    }
+})();
+

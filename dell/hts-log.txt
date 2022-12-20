@@ -1,0 +1,119 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 17 Dec 2022 13:57:52 at https://www.dell.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.dell.com/ -O1 "C:\dell.com\dell" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:57:54	Warning: 	Moved Temporarily for https://www.dell.com/
+13:57:54	Warning: 	File has moved from https://www.dell.com/ to https://www.dell.com/sv-se
+14:08:58	Error: 	"Not Found" (404) at link https://www.dell.com/en-us/pagenotfound?searched=http://www.dell.com:80/GET (from https://www.dell.com/sv-se)
+16:16:40	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/support/kbdoc/sv-se/000179530/dell-emc-supportassist-enterprise-2-x-guide-och-h-auml-mta
+16:16:43	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/support/kbdoc/sv-se/000126803/exportera-en-supportassist-samling-via-idrac7-och-idrac8
+16:16:46	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/support/kbdoc/sv-se/000126308/exportera-en-supportassist-samling-via-idrac9
+16:16:53	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/support/kbdoc/sv-se/000132087/st%C3%B6d-f%C3%B6r-dell-emc-openmanage-server-administrator-omsa
+16:16:56	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/support/kbdoc/sv-se/000178016/st-ouml-d-f-ouml-r-idrac9-integrated-dell-remote-access-controller-9
+16:52:06	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): www.dell.com/content/dam/web-resources/analytics/gtm.min.js
+16:56:34	Warning: 	Unable to test https://www.dell.com/sv-se/perspectives/GET (loop to same filename)
+16:56:34	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/sv-se/perspectives/GET
+16:57:49	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/bärbara-datorer-och-minidatorer-från-dell/sc/laptops (from https://www.dell.com/sv-se)
+16:57:49	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/stationära-datorer-och-arbetsstationer/sc/desktops (from https://www.dell.com/sv-se)
+16:57:59	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/bildskärmar-tillbehör/ac/4009 (from https://www.dell.com/sv-se)
+16:59:44	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/datortillbehör/ac/5436?~ck=bt (from https://www.dell.com/sv-se)
+17:20:49	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/bärbara-datorer-och-minidatorer-från-dell/inspiron-16-plus/spd/inspiron-16-7620-laptop/bn76304sb (from https://www.dell.com/sv-se)
+17:25:57	Warning: 	Unable to test https://www.dell.com/sv-se/perspectives/podcasts-trailblazers-s06-e06/GET (loop to same filename)
+17:25:57	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/sv-se/perspectives/podcasts-trailblazers-s06-e06/GET
+17:38:56	Error: 	"Not Found" (404) at link https://www.dell.com/en-us/pagenotfound?searched=http://www.dell.com:80/get (from https://afcs.dellcdn.com/tnt/adobebundle/shop/bundle_toggle.min.js)
+17:38:57	Error: 	"Not Found" (404) at link https://www.dell.com/en-us/pagenotfound?searched=http://www.dell.com:80/Unable%20to%20load%20target-vec.js (from https://afcs.dellcdn.com/tnt/adobebundle/shop/bundle_toggle.min.js)
+17:38:58	Error: 	"Not Found" (404) at link https://www.dell.com/en-us/pagenotfound?searched=http://www.dell.com:80/Loading%20target-vec.js (from https://afcs.dellcdn.com/tnt/adobebundle/shop/bundle_toggle.min.js)
+17:39:08	Error: 	"Bad Request" (400) at link https://www.dell.com/identity/global/CaptchaRefresh/75814991-4252-4cc4-a977-670cc21309a7?pn=Login&feir=1 (from https://www.dell.com/identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?pn=Login&feir=1)
+17:39:08	Error: 	"Bad Request" (400) at link https://www.dell.com/identity/global/RetrieveAudio/75814991-4252-4cc4-a977-670cc21309a7?pn=Login&feir=1 (from https://www.dell.com/identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?pn=Login&feir=1)
+17:39:09	Warning: 	Moved Temporarily for https://www.dell.com/identity/global/idp/
+17:39:09	Warning: 	File has moved from https://www.dell.com/identity/global/idp/ to https://www.dell.com/identity/global/error/index//5fedc311-5110-4095-8cb7-34c89bc5f038
+17:39:13	Error: 	"Not Found" (404) at link https://www.dell.com/en-US/dt/corporate/about-us/who-we-are.htm (from https://www.dell.com/identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?pn=Login&feir=1)
+17:39:13	Error: 	"Not Found" (404) at link www.dell.com/en-US/dt/events/index.htm (from https://www.dell.com/identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?pn=Login&feir=1)
+17:39:13	Error: 	"Not Found" (404) at link www.dell.com/en-US/dt/premier-solutions/index.htm (from https://www.dell.com/identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?pn=Login&feir=1)
+17:49:54	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/learn/us/en/98/terms-conditions/art-reseller-terms-of-sale
+17:50:13	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/Learn/us/en/98/terms-conditions/trademarks-us?s=corp
+17:50:28	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/Learn/us/en/98/terms-conditions/trademarks-us?s=corp
+17:50:41	Error: 	"Not Found" (404) at link https://www.dell.com/learn/us/en/98/policies-cookies-ads-emails?s=corp (from https://www.dell.com/identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?pn=Login&feir=1)
+17:50:46	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/learn/us/en/98/terms-conditions/art-reseller-terms-of-sale
+17:52:03	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/Learn/us/en/98/terms-conditions/trademarks-us?s=corp
+17:53:24	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/Learn/us/en/98/terms-conditions/trademarks-us?s=corp
+17:53:36	Error: 	"Not Found" (404) at link https://www.dell.com/en-us/pagenotfound?searched=http://www.dell.com:80/%7Bl%7D-%7Bc%7D/sitemap (from https://www.dell.com/identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?pn=Login&feir=1)
+17:53:36	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.dell.com/support/mastheadux/account/v4/index (from https://www.dell.com/support/home/en-us)
+17:57:04	Warning: 	Moved Permanently for www.dell.com/support/contents/en-us/category/product-support/self-support-knowledgebase/operating-systems/windows-operating-systems/
+17:57:04	Warning: 	Redirected link is identical because of 'URL Hack' option: www.dell.com/support/contents/en-us/category/product-support/self-support-knowledgebase/operating-systems/windows-operating-systems/ and https://www.dell.com/support/contents/en-us/category/product-support/self-support-knowledgebase/operating-systems/windows-operating-systems/
+17:57:04	Warning: 	File has moved from www.dell.com/support/contents/en-us/category/product-support/self-support-knowledgebase/operating-systems/windows-operating-systems/ to https://www.dell.com/support/contents/en-us/category/product-support/self-support-knowledgebase/operating-systems/windows-operating-systems/
+17:57:33	Error: 	"Not Found" (404) at link https://www.dell.com/support/components (from https://www.dell.com/support/home/en-us)
+17:57:33	Error: 	Unable to save file C:/dell.com/dell/www.dell.com/support/components: Permission denied
+17:57:33	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.dell.com/support/components/dashboard/en-us (from https://www.dell.com/support/home/en-us)
+17:57:33	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.dell.com/support/components/eula (from https://www.dell.com/support/home/en-us)
+18:00:39	Warning: 	Unable to test https://www.dell.com/en-us/perspectives/GET (loop to same filename)
+18:00:39	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/en-us/perspectives/GET
+18:04:33	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 12092): www.dell.com/wp-uploads/2022/12/maze-geometric-shape-of-success-business-ideas-and-organizational-management-solutions-blue-340x240.jpg
+18:05:16	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 18689): www.dell.com/wp-uploads/2022/12/block-background-computing-340x240.jpg
+18:19:03	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/Learn/us/en/98/terms-conditions/trademarks-us?s=corp
+18:19:16	Warning: 	link is probably looping, type unknown, aborting: https://www.dell.com/Learn/us/en/98/terms-conditions/trademarks-us?s=corp
+18:21:06	Error: 	"Not Found" (404) at link https://www.dell.com/sv-se/dt/apex/GET (from https://www.dell.com/sv-se/dt/apex/index.htm)
+18:21:06	Warning: 	Moved Temporarily for https://www.dell.com/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/etc/designs/uwaem/assets/img/favicons/apple-touch-icon-180x180.png
+18:21:06	Warning: 	Warning moved treated for https://www.dell.com/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/etc/designs/uwaem/assets/img/favicons/apple-touch-icon-180x180.png (real one is https://www.dell.com/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/images/global/brand/logos/ios/etc/designs/uwaem/assets/img/favicons/apple-touch-icon-180x180.png)
+18:21:07	Warning: 	Moved Permanently for https://www.dell.com/en-us/
+18:21:07	Warning: 	File has moved from https://www.dell.com/en-us/ to https://www.dell.com/en-us
+18:22:15	Warning: 	Moved Permanently for www.dell.com/sv-se/dt/perspectives/
+18:22:15	Warning: 	Redirected link is identical because of 'URL Hack' option: www.dell.com/sv-se/dt/perspectives/ and https://www.dell.com/sv-se/dt/perspectives/
+18:22:15	Warning: 	File has moved from www.dell.com/sv-se/dt/perspectives/ to https://www.dell.com/sv-se/dt/perspectives/
+18:28:41	Error: 	"Not Found" (404) at link https://www.dell.com/sv-se/dt/apex/cloud-services/GET (from https://www.dell.com/sv-se/dt/apex/cloud-services/index.htm)
+18:28:55	Warning: 	Warning: store application/octet-stream without scan: C:/dell.com/dell/www.dell.com/content/dam/uwaem/production-design-assets/en/apex/images/icon-header-arrows.svg
+18:28:56	Warning: 	Warning: store application/octet-stream without scan: C:/dell.com/dell/www.dell.com/content/dam/uwaem/production-design-assets/en/apex/images/graphic-open-quote-blue.svg
+18:29:59	Warning: 	Moved Permanently for https://www.dell.com/sv-se/blog/mind-the-gap-protect-your-business-against-ransomware/
+18:29:59	Warning: 	File has moved from https://www.dell.com/sv-se/blog/mind-the-gap-protect-your-business-against-ransomware/ to /en-us/blog/mind-the-gap-protect-your-business-against-ransomware/
+18:30:10	Error: 	"Not Found" (404) at link https://www.dell.com/sv-se/dt/payment-solutions/flexible-consumption/GET (from https://www.dell.com/sv-se/dt/payment-solutions/flexible-consumption/flex-on-demand.htm)
+18:30:10	Error: 	"Bad Request" (400) at link https://www.dell.com/sv-se/payment-solutions/flexible-consumption/flex-on-demand/jcr:content/par/overlay_daf9/overlay_content.htm (from https://www.dell.com/sv-se/dt/payment-solutions/flexible-consumption/flex-on-demand.htm)
+18:30:11	Error: 	"Bad Request" (400) at link https://www.dell.com/sv-se/payment-solutions/flexible-consumption/data-center-utility/jcr:content/par/overlay_a346/overlay_content.htm (from https://www.dell.com/sv-se/dt/payment-solutions/flexible-consumption/data-center-utility.htm)
+18:32:05	Error: 	"Not Found" (404) at link https://www.dell.com/sv-se/dt/apex/professional-services/GET (from https://www.dell.com/sv-se/dt/apex/professional-services/index.htm)
+18:32:18	Warning: 	Moved Permanently for https://www.dell.com/sv-se/blog/the-beginning-of-a-beautiful-friendship-with-storage/
+18:32:18	Warning: 	File has moved from https://www.dell.com/sv-se/blog/the-beginning-of-a-beautiful-friendship-with-storage/ to /en-us/blog/the-beginning-of-a-beautiful-friendship-with-storage/
+18:32:56	Error: 	"Unprocessable Entity" (422) at link i.dell.com/sites/csimages/Banner_Imagery/all/prod-1756-notebook-xps-9320-9500-9700-silver-3440x1800.jpg (from https://www.dell.com/sv-se/shop/scc/sc/laptops)
+18:33:15	Error: 	"Unprocessable Entity" (422) at link i.dell.com/sites/csimages/Banner_Imagery/all/loading-animation-square.gif (from https://www.dell.com/sv-se/shop/scc/sc/laptops)
+18:33:15	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/bärbara-datorer-och-minidatorer-från-dell/sr/laptops/xps?appliedRefinements=37868 (from https://www.dell.com/sv-se/shop/scc/sc/laptops)
+19:04:15	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/b%c3%a4rbara-datorer-och-minidatorer-fr%c3%a5n-dell/sf/xps-laptops (from https://www.dell.com/sv-se/shop/scc/sc/laptops)
+19:16:05	Error: 	"Unprocessable Entity" (422) at link i.dell.com/sites/csimages/App-Merchandizing_Images/all/xs9720nt-cnb-00055lf110-gy_category-mod-800x620.png (from https://www.dell.com/sv-se/shop/scc/sc/laptops)
+19:16:40	Error: 	"Unprocessable Entity" (422) at link i.dell.com/sites/csimages/Merchandizing_Imagery/all/prod-1090-lifestyle-laptop-xps-13-9300-1440x720.jpg (from https://www.dell.com/sv-se/shop/scc/sc/laptops)
+19:23:32	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https:///content/images/common/image-not-available_89x88.png (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:24:03	Warning: 	Moved Permanently for https://www.dell.com/csbapi/systemresult/anav/getresultcount/sv/se/bsd/sebsdt1/all-products%2Flaptops%2Fxps-laptops/
+19:24:03	Warning: 	File has moved from https://www.dell.com/csbapi/systemresult/anav/getresultcount/sv/se/bsd/sebsdt1/all-products%2Flaptops%2Fxps-laptops/ to //www.dell.com/en-us/shop?showmessage=1
+19:24:04	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/bärbara-datorer-och-minidatorer-från-dell/sr/laptops/xps-laptops/17-tum?appliedRefinements=37632 (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:46	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/bärbara-datorer-och-minidatorer-från-dell/bärbar-13-tums-xps-dator/spd/xps-13-9315-laptop (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:47	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/bärbara-datorer-och-minidatorer-från-dell/xps-13-2-i-1/spd/xps-13-9315-2-in-1-laptop (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:47	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/bärbara-datorer-och-minidatorer-från-dell/xps-13-plus-bärbar-dator/spd/xps-13-9320-laptop (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:47	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/bärbara-datorer-och-minidatorer-från-dell/xps-15-bärbar-dator/spd/xps-15-9520-laptop (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:47	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/bärbara-datorer-och-minidatorer-från-dell/dell-xps-17-bärbar-dator/spd/xps-17-9720-laptop (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:48	Warning: 	Link https://www.dell.com/sv-se/shop/compare not scanned (follow robots meta tag)
+19:34:49	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/b%c3%a4rbara-datorer-och-minidatorer-fr%c3%a5n-dell/xps-15-9520/spd/xps-15-9520-laptop/cn95202sc (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:50	Error: 	"Gone" (410) at link https://www.dell.com/" (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:50	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/b%c3%a4rbara-datorer-och-minidatorer-fr%c3%a5n-dell/xps-15/spd/xps-15-9520-laptop/cn95202sc?view=configurations (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:50	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/b%c3%a4sta-erbjudanden/xps-13-plus/spd/xps-13-9320-laptop/cn93313sc (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:50	Error: 	"Unprocessable Entity" (422) at link i.dell.com/sites/csimages/Banner_Imagery/all/prod-1832-logo-intel-evo-72x60.png (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:50	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/b%c3%a4rbara-datorer-och-minidatorer-fr%c3%a5n-dell/xps-13-plus/spd/xps-13-9320-laptop/cn93313sc?view=configurations (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:50	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/b%c3%a4rbara-datorer-och-minidatorer-fr%c3%a5n-dell/xps-17/spd/xps-17-9720-laptop/cn97202cc (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:50	Error: 	"Unprocessable Entity" (422) at link i.dell.com/sites/csimages/Banner_Imagery/all/prod-1832-logo-xps-creators-carbon-72x60.png (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:34:50	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/b%c3%a4rbara-datorer-och-minidatorer-fr%c3%a5n-dell/xps-13-2-i-1/spd/xps-13-9315-2-in-1-laptop/cn93602 (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:35:41	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/b%c3%a4sta-erbjudanden/xps-17/spd/xps-17-9720-laptop/cn97206cc (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:35:54	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/b%c3%a4rbara-datorer-och-minidatorer-fr%c3%a5n-dell/ny-xps-13/spd/xps-13-9315-laptop/cn93407cc (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:35:54	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/b%c3%a4rbara-datorer-och-minidatorer-fr%c3%a5n-dell/xps-13/spd/xps-13-9315-laptop/cn93407cc?view=configurations (from https://www.dell.com/sv-se/shop/scc/sr/laptops/xps-laptops)
+19:36:24	Warning: 	Moved Permanently for https://www.dell.com/csbapi/systemresult/anav/getresultcount/sv/se/bsd/sebsdt1/all-products%2Flaptops%2Flatitude-laptops/
+19:36:24	Warning: 	File has moved from https://www.dell.com/csbapi/systemresult/anav/getresultcount/sv/se/bsd/sebsdt1/all-products%2Flaptops%2Flatitude-laptops/ to //www.dell.com/en-us/shop?showmessage=1
+19:36:24	Error: 	"Error when decompressing" (-1) at link https://www.dell.com/sv-se/shop/bärbara-datorer-och-minidatorer-från-dell/sr/laptops/latitude-laptops/15-tum?appliedRefinements=37634 (from https://www.dell.com/sv-se/shop/scc/sr/laptops/latitude-laptops)
+19:45:47	Error: 	Exit requested by shell or user
+19:46:00	Error: 	Exit requested by shell or user
+19:46:00	Error: 	"" (-1) at link https://www.dell.com/sv-se/shop/bärbara-datorer-och-minidatorer-från-dell/sr/laptops/latitude-laptops/fotoredigering?appliedRefinements=37908 (from https://www.dell.com/sv-se/shop/scc/sr/laptops/latitude-laptops)
+19:46:00	Error: 	Exit requested by shell or user
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 hours 48 minutes 8 seconds : 6679 links scanned, 5817 files written (1906005330 bytes overall) [528028298 bytes received at 25279 bytes/sec], 1739703612 bytes transferred using HTTP compression in 5490 files, ratio 17%, 9.8 requests per connection
+(53 errors, 51 warnings, 0 messages)
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]
